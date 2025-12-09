@@ -1,0 +1,66 @@
+{
+  "area": {
+    "id": 2224,
+    "name": "Spain",
+    "code": "ESP",
+    "flag": "https://crests.football-data.org/760.svg"
+  },
+  "competition": {
+    "id": 2014,
+    "name": "Primera Division",
+    "code": "PD",
+    "type": "LEAGUE",
+    "emblem": "https://crests.football-data.org/laliga.png"
+  },
+  "season": {
+    "id": 2429,
+    "startDate": "2025-08-17",
+    "endDate": "2026-05-24",
+    "currentMatchday": 15,
+    "winner": null
+  },
+  "id": 544307,
+  "utcDate": "2025-10-26T15:15:00Z",
+  "status": "FINISHED",
+  "matchday": 10,
+  "stage": "REGULAR_SEASON",
+  "group": null,
+  "lastUpdated": "2025-12-09T20:20:54Z",
+  "homeTeam": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid",
+    "tla": "RMA",
+    "crest": "https://crests.football-data.org/86.png"
+  },
+  "awayTeam": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça",
+    "tla": "FCB",
+    "crest": "https://crests.football-data.org/81.png"
+  },
+  "score": {
+    "winner": "HOME_TEAM",
+    "duration": "REGULAR",
+    "fullTime": {
+      "home": 2,
+      "away": 1
+    },
+    "halfTime": {
+      "home": 2,
+      "away": 1
+    }
+  },
+  "odds": {
+    "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+  },
+  "referees": [
+    {
+      "id": 207113,
+      "name": "César Soto Grado",
+      "type": "REFEREE",
+      "nationality": "Spain"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "area": {
+    "id": 2224,
+    "name": "Spain",
+    "code": "ESP",
+    "flag": "https://crests.football-data.org/760.svg"
+  },
+  "competition": {
+    "id": 2014,
+    "name": "Primera Division",
+    "code": "PD",
+    "type": "LEAGUE",
+    "emblem": "https://crests.football-data.org/laliga.png"
+  },
+  "season": {
+    "id": 2429,
+    "startDate": "2025-08-17",
+    "endDate": "2026-05-24",
+    "currentMatchday": 15,
+    "winner": null
+  },
+  "id": 544295,
+  "utcDate": "2025-10-19T19:00:00Z",
+  "status": "FINISHED",
+  "matchday": 9,
+  "stage": "REGULAR_SEASON",
+  "group": null,
+  "lastUpdated": "2025-12-09T20:20:54Z",
+  "homeTeam": {
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe",
+    "tla": "GET",
+    "crest": "https://crests.football-data.org/82.png"
+  },
+  "awayTeam": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid",
+    "tla": "RMA",
+    "crest": "https://crests.football-data.org/86.png"
+  },
+  "score": {
+    "winner": "AWAY_TEAM",
+    "duration": "REGULAR",
+    "fullTime": {
+      "home": 0,
+      "away": 1
+    },
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "odds": {
+    "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+  },
+  "referees": [
+    {
+      "id": 206223,
+      "name": "José Munuera Montero",
+      "type": "REFEREE",
+      "nationality": "Spain"
+    }
+  ]
+}
