@@ -57,3 +57,6 @@ Thumbs.db
 credentials.json
 config.ini
 *.json
+
+# Personal/Archive Documentation
+docs/archive/

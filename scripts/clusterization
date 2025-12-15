@@ -1,0 +1,831 @@
+#objetivo
+#3️⃣ AI Football Scout (ranking dinâmico)
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+import numpy as np
+import pandas as pd
+import warnings
+warnings.filterwarnings('ignore')
+
+# ============================================================================
+# 1️⃣ CARREGAR OS 3 DATABASES
+# ============================================================================
+
+print("📊 Carregando databases...")
+players_df = pd.read_csv('datalake/processed/players_complete_1995_2025.csv')
+team_stats_df = pd.read_csv('datalake/processed/teams_complete_1995_2025.csv')
+squads_df = pd.read_csv('datalake/processed/squads_complete.csv')
+
+print(f"✅ Players: {len(players_df)} registros")
+print(f"✅ Teams Stats: {len(team_stats_df)} registros")
+print(f"✅ Squads: {len(squads_df)} registros")
+
+# ============================================================================
+# 2️⃣ FEATURE COLUMNS - EXPLICAÇÃO
+# ============================================================================
+# Features viêm do banco de dados players_complete_1995_2025.csv
+# Representam habilidades, performance e características físicas
+#
+# PERFORMANCE (estatísticas de jogo):
+#   - Performance_Gls: Gols
+#   - Performance_Ast: Assistências
+#   - Performance_G+A: Gols + Assistências
+#   - Performance_G-PK: Gols sem pênaltis
+#   - Performance_PK: Pênaltis convertidos
+#
+# EXPECTED (xG - estatísticas esperadas):
+#   - Expected_xG: Valor esperado de gols (qualidade de chutes)
+#   - Expected_xAG: Valor esperado de assistências
+#   - Expected_npxG+xAG: xG + xA sem pênaltis
+#
+# PER 90 MINUTES (normalizado por tempo jogado):
+#   - Per_90_Minutes_Gls: Gols por 90 minutos
+#   - Per_90_Minutes_Ast: Assistências por 90 minutos
+#   - Per_90_Minutes_G+A: Gols+Ast por 90 minutos
+#   - Per_90_Minutes_xG: xG por 90 minutos
+#   - Per_90_Minutes_xAG: xA por 90 minutos
+#   - Per_90_Minutes_xG+xAG: xG+xA por 90 minutos
+#
+# PLAYING TIME (volume de participação):
+#   - Playing_Time_MP: Matches Played (jogos)
+#   - Playing_Time_Starts: Jogos começando (titular)
+#   - Playing_Time_Min: Minutos totais
+#   - Playing_Time_90s: Equivalente em partidas de 90min
+#
+# PROGRESSÃO (como avança o jogo):
+#   - Progression_PrgC: Carregadas progressivas (passes que avançam 10m)
+#   - Progression_PrgP: Passes progressivos
+#   - Progression_PrgR: Corridas progressivas
+#
+# DADOS BÁSICOS:
+#   - age: Idade
+#   - Playing_Time_born: Ano de nascimento
+
+FEATURE_COLUMNS = {
+    'performance': [
+        'Performance_Gls',      # Gols marcados
+        'Performance_Ast',      # Assistências
+        'Performance_G+A',      # Gols + Assistências
+        'Performance_G-PK',     # Gols sem pênaltis
+        'Performance_PK',       # Pênaltis
+        'Performance_CrdY',     # Cartões amarelos (disciplina)
+        'Performance_CrdR',     # Cartões vermelhos
+    ],
+    'expected': [
+        'Expected_xG',          # xG - qualidade de chutes
+        'Expected_xAG',         # xA - qualidade de passes de gol
+        'Expected_npxG+xAG',    # xG + xA sem pênaltis
+    ],
+    'per_90': [
+        'Per_90_Minutes_Gls',   # Gols por 90 min
+        'Per_90_Minutes_Ast',   # Assist por 90 min
+        'Per_90_Minutes_G+A',   # G+A por 90 min
+        'Per_90_Minutes_xG',    # xG por 90 min
+        'Per_90_Minutes_xAG',   # xA por 90 min
+        'Per_90_Minutes_xG+xAG',# xG+xA por 90 min
+    ],
+    'playing_time': [
+        'Playing_Time_MP',      # Matches Played
+        'Playing_Time_Starts',  # Partidas como titular
+        'Playing_Time_Min',     # Minutos totais
+        'Playing_Time_90s',     # Partidas equivalentes (90min)
+    ],
+    'progression': [
+        'Progression_PrgC',     # Carregadas progressivas
+        'Progression_PrgP',     # Passes progressivos
+        'Progression_PrgR',     # Corridas progressivas
+    ],
+    'basic': [
+        'age',                  # Idade
+    ]
+}
+
+# Selecionar features que existem no dataframe
+all_features = []
+for category, features in FEATURE_COLUMNS.items():
+    available = [col for col in features if col in players_df.columns]
+    all_features.extend(available)
+    print(f"  {category.upper()}: {len(available)}/{len(features)} features")
+
+print(f"\n✅ Total de features para clusterização: {len(all_features)}")
+
+# ============================================================================
+# 3️⃣ PREPARAR DADOS PARA CLUSTERIZAÇÃO
+# ============================================================================
+
+x = players_df[all_features].fillna(0)
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(x)
+
+# ============================================================================
+# 4️⃣ GRID SEARCH - ENCONTRAR NÚMERO ÓTIMO DE CLUSTERS
+# ============================================================================
+
+print("\n🔍 Grid Search: Testando diferentes números de clusters...")
+
+silhouette_scores = {}
+inertias = {}
+
+for n_clusters in range(2, 16):
+    kmeans_test = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
+    cluster_labels = kmeans_test.fit_predict(X_scaled)
+    
+    silhouette = silhouette_score(X_scaled, cluster_labels)
+    inertia = kmeans_test.inertia_
+    
+    silhouette_scores[n_clusters] = silhouette
+    inertias[n_clusters] = inertia
+    
+    print(f"  n_clusters={n_clusters:2d} | Silhouette: {silhouette:.4f} | Inertia: {inertia:.2f}")
+
+# Encontrar melhor número de clusters
+optimal_clusters = max(silhouette_scores, key=silhouette_scores.get)
+print(f"\n✅ Número ótimo de clusters: {optimal_clusters} (silhouette: {silhouette_scores[optimal_clusters]:.4f})")
+
+# ============================================================================
+# 5️⃣ CLUSTERIZAÇÃO FINAL
+# ============================================================================
+
+kmeans = KMeans(n_clusters=optimal_clusters, random_state=42, n_init=10)
+clusters = kmeans.fit_predict(X_scaled)
+
+print(f"\n📈 Distribuição de clusters:")
+for i in range(optimal_clusters):
+    count = (clusters == i).sum()
+    print(f"  Cluster {i}: {count:5d} jogadores")
+
+# ============================================================================
+# 6️⃣ ADICIONAR CLUSTER AO DATAFRAME DE PLAYERS
+# ============================================================================
+
+players_df['player_cluster'] = clusters
+players_df['player_vector'] = list(X_scaled)
+
+# ============================================================================
+# 7️⃣ CRIAR VETOR DE TIMES (AGREGADO DOS JOGADORES)
+# ============================================================================
+
+print("\n" + "="*70)
+print("👥 CALCULANDO PERFIS TÁTIDOS DE TIMES")
+print("="*70)
+
+print("\n📐 Gerando team_vectors como média ponderada dos player_vectors...")
+
+def calculate_team_vector(team_name, squads_df, players_df):
+    """
+    Calcula vetor tático de um time como MÉDIA dos embeddings dos jogadores
+    Isso é MUITO mais correto que usar estatísticas brutas de time
+    """
+    # Pegar jogadores do time do squad
+    team_players = squads_df[squads_df['team'].str.lower() == team_name.lower()]
+    
+    if len(team_players) == 0:
+        return None
+    
+    # Encontrar vetores dos jogadores
+    team_vectors = []
+    matched_players = 0
+    
+    for idx, squad_player in team_players.iterrows():
+        # Buscar jogador no dataframe principal
+        player_match = players_df[
+            (players_df['player'].str.lower() == squad_player['player_name'].str.lower()) |
+            (players_df['player'].str.lower() == squad_player['Player'].str.lower())
+        ]
+        
+        if len(player_match) > 0:
+            player = player_match.iloc[0]
+            if 'player_vector' in player and player['player_vector'] is not None:
+                team_vectors.append(player['player_vector'])
+                matched_players += 1
+    
+    if len(team_vectors) == 0:
+        return None
+    
+    # Retornar média ponderada
+    team_vector = np.mean(team_vectors, axis=0)
+    return team_vector, matched_players
+
+# Calcular team_vectors para todos os times
+teams_vectors_dict = {}
+teams_info = []
+
+unique_teams = squads_df['team'].unique()
+
+for team_name in unique_teams:
+    result = calculate_team_vector(team_name, squads_df, players_df)
+    if result is not None:
+        team_vector, matched = result
+        teams_vectors_dict[team_name] = team_vector
+        teams_info.append({
+            'team': team_name,
+            'matched_players': matched,
+            'team_vector': team_vector
+        })
+
+teams_vectors_df = pd.DataFrame(teams_info)
+print(f"✅ Team vectors calculados para {len(teams_vectors_df)} times")
+print(f"   Média de jogadores encontrados: {teams_vectors_df['matched_players'].mean():.1f}")
+
+# ============================================================================
+# 8️⃣ CLUSTERIZAR TIMES - ESTILO TÁTICO (NÃO PRODUÇÃO)
+# ============================================================================
+
+print("\n" + "="*70)
+print("🏆 CLUSTERIZANDO TIMES POR ESTILO TÁTICO")
+print("="*70)
+
+# ⚠️ IMPORTANTE: Features de ESTILO, não de PRODUÇÃO
+# Isso permite identificar: defensivo, pressão alta, transição, etc.
+# NÃO vamos usar gols, xG, assists (isso é resultado, não estilo)
+
+team_style_features = [
+    'Poss',         # % Posse de bola (muito importante!)
+    'Press',        # Pressões por 90
+    'Tkl+Int',      # Desarmes + Interceptações (agressividade defensiva)
+    'Clr',          # Limpezas (quantos blocos defensivos)
+    'PrgP',         # Passes progressivos (como constrói o jogo)
+    'PrgC',         # Carregadas progressivas (agressividade ofensiva)
+    'PrgR',         # Corridas progressivas (dinamismo)
+    'Cmp%',         # % Passes completos (controle)
+    'KP',           # Key passes (criatividade)
+    'Succ%',        # % Sucesso em dribles (agressividade técnica)
+]
+
+available_style_features = [col for col in team_style_features if col in team_stats_df.columns]
+print(f"✅ Features de estilo disponíveis: {len(available_style_features)}/{len(team_style_features)}")
+print(f"   Features: {available_style_features}")
+
+if len(available_style_features) > 0:
+    # Preparar dados de times
+    team_style_data = team_stats_df[available_style_features].fillna(0)
+    
+    # Normalizar
+    team_style_scaler = StandardScaler()
+    team_style_scaled = team_style_scaler.fit_transform(team_style_data)
+    
+    # Grid Search para times
+    print("\n🔍 Grid Search: Testando diferentes números de clusters de times...")
+    
+    team_silhouette_scores = {}
+    
+    for n_clusters_team in range(2, min(8, len(team_stats_df))):
+        kmeans_teams_test = KMeans(n_clusters=n_clusters_team, random_state=42, n_init=10)
+        team_cluster_labels = kmeans_teams_test.fit_predict(team_style_scaled)
+        
+        team_silhouette = silhouette_score(team_style_scaled, team_cluster_labels)
+        team_silhouette_scores[n_clusters_team] = team_silhouette
+        
+        print(f"  n_clusters={n_clusters_team:2d} | Silhouette: {team_silhouette:.4f}")
+    
+    optimal_team_clusters = max(team_silhouette_scores, key=team_silhouette_scores.get)
+    print(f"\n✅ Número ótimo de clusters de times: {optimal_team_clusters} (silhouette: {team_silhouette_scores[optimal_team_clusters]:.4f})")
+    
+    # Clusterizar com número ótimo
+    kmeans_teams = KMeans(n_clusters=optimal_team_clusters, random_state=42, n_init=10)
+    team_clusters = kmeans_teams.fit_predict(team_style_scaled)
+    
+    team_stats_df['team_cluster'] = team_clusters
+    team_stats_df['team_vector'] = list(team_style_scaled)  # Vector de ESTILO
+    
+    print(f"\n📊 Distribuição de clusters de times (por estilo):")
+    for i in range(optimal_team_clusters):
+        cluster_teams = team_stats_df[team_stats_df['team_cluster'] == i]
+        count = len(cluster_teams)
+        teams_list = list(cluster_teams['Squad'].head(5).values)
+        
+        # Análise de estilo
+        avg_poss = cluster_teams['Poss'].mean() if 'Poss' in cluster_teams.columns else 0
+        avg_press = cluster_teams['Press'].mean() if 'Press' in cluster_teams.columns else 0
+        
+        print(f"  Cluster {i}: {count:2d} times")
+        print(f"    Times: {', '.join(teams_list[:3])}")
+        print(f"    Estilo: Posse {avg_poss:.1f}%, Pressão {avg_press:.1f}")
+else:
+    print("⚠️  Features de estilo não encontradas no database. Usando vetores de jogadores.")
+
+# ============================================================================
+# 9️⃣ RANKING DINÂMICO: COMPATIBILIDADE JOGADOR × TIME
+# ============================================================================
+
+print("\n" + "="*70)
+print("⚡ RANKING DINÂMICO - COMPATIBILIDADE JOGADOR × TIME")
+print("="*70)
+
+def rank_players_for_team(team_name, teams_vectors_dict, players_df):
+    """
+    Ranqueia jogadores por similaridade ao estilo do time
+    Score alto = jogador encaixa bem com estilo do time
+    """
+    if team_name not in teams_vectors_dict:
+        return None
+    
+    team_vector = teams_vectors_dict[team_name]
+    
+    # Calcular similaridade com todos os jogadores
+    similarities = []
+    for idx, player in players_df.iterrows():
+        if 'player_vector' in player and player['player_vector'] is not None:
+            try:
+                sim = cosine_similarity([team_vector], [player['player_vector']])[0][0]
+                similarities.append({
+                    'Jogador': player.get('player', player.get('Name', 'Unknown')),
+                    'Cluster': player.get('player_cluster', -1),
+                    'Posição': player.get('pos', 'Unknown'),
+                    'Time_Atual': player.get('Club', player.get('team', 'Unknown')),
+                    'Idade': player.get('age', 0),
+                    'Gols': player.get('Performance_Gls', 0),
+                    'Match_Score': sim
+                })
+            except:
+                pass
+    
+    if len(similarities) == 0:
+        return None
+    
+    ranking = pd.DataFrame(similarities).sort_values('Match_Score', ascending=False)
+    return ranking
+
+# ============================================================================
+# 🔟 EXEMPLO: TRANSFERÊNCIAS IDEAIS
+# ============================================================================
+
+print("\n📊 SIMULAÇÃO: Top 5 jogadores para cada tipo de time")
+print("-" * 70)
+
+# Encontrar 2-3 times para análise
+teams_to_analyze = list(teams_vectors_dict.keys())[:3]
+
+for team in teams_to_analyze:
+    ranking = rank_players_for_team(team, teams_vectors_dict, players_df)
+    if ranking is not None and len(ranking) > 0:
+        print(f"\n🎯 Top 5 para {team}:")
+        display_cols = ['Jogador', 'Posição', 'Cluster', 'Match_Score']
+        print(ranking[display_cols].head(5).to_string(index=False))
+
+# ============================================================================
+# 1️⃣1️⃣ COMPOSIÇÃO DOS TIMES
+# ============================================================================
+
+print("\n" + "="*70)
+print("👥 ANÁLISE DE COMPOSIÇÃO DOS TIMES")
+print("="*70)
+
+def analyze_team_composition(team_name, squads_df, players_df):
+    """
+    Analisa composição de um time:
+    - Quantos jogadores de cada cluster
+    - Perfil tático agregado
+    - Desequilíbrios
+    """
+    team_squad = squads_df[squads_df['team'].str.lower() == team_name.lower()]
+    
+    if len(team_squad) == 0:
+        return None
+    
+    players_in_team = []
+    for idx, squad_player in team_squad.iterrows():
+        player_name = squad_player.get('player_name', squad_player.get('Player', ''))
+        player_data = players_df[players_df['player'].str.lower() == player_name.lower()]
+        
+        if len(player_data) > 0:
+            players_in_team.append(player_data.iloc[0])
+    
+    if len(players_in_team) == 0:
+        return None
+    
+    team_players_df = pd.DataFrame(players_in_team)
+    
+    return {
+        'Time': team_name,
+        'Total': len(team_players_df),
+        'Idade_Media': team_players_df['age'].mean(),
+        'Clusters': sorted(team_players_df['player_cluster'].unique()),
+        'Dist_Clusters': team_players_df['player_cluster'].value_counts().to_dict(),
+        'Posicoes_Top': team_players_df['pos'].value_counts().head(3).to_dict(),
+    }
+
+# Análise de 3 times
+print("\n🔍 Perfil de Composição:")
+for team in teams_to_analyze:
+    comp = analyze_team_composition(team, squads_df, players_df)
+    if comp:
+        print(f"\n{team}:")
+        print(f"  Total: {comp['Total']} jogadores | Idade: {comp['Idade_Media']:.1f} anos")
+        print(f"  Clusters: {comp['Clusters']}")
+        print(f"  Distribuição: {comp['Dist_Clusters']}")
+
+# ============================================================================
+# 1️⃣2️⃣ SALVAR RESULTADOS
+# ============================================================================
+
+print("\n" + "="*70)
+print("💾 SALVANDO RESULTADOS")
+print("="*70)
+
+# Salvar players com clusters
+players_output = players_df[['player', 'Club', 'pos', 'age', 'player_cluster']].copy()
+players_output.to_csv('datalake/processed/players_clustered.csv', index=False)
+print("✅ Saved: datalake/processed/players_clustered.csv")
+
+# Salvar análise de clusters de jogadores
+cluster_analysis = players_df.groupby('player_cluster').agg({
+    'player': 'count',
+    'age': 'mean',
+    'Performance_Gls': 'mean',
+    'Performance_Ast': 'mean',
+    'pos': lambda x: x.value_counts().index[0] if len(x) > 0 else 'Unknown'
+}).round(2)
+cluster_analysis.columns = ['Total_Players', 'Avg_Age', 'Avg_Gls', 'Avg_Ast', 'Top_Position']
+cluster_analysis.to_csv('datalake/processed/player_clusters_analysis.csv')
+print("✅ Saved: datalake/processed/player_clusters_analysis.csv")
+
+# Salvar análise de clusters de times (se disponível)
+if 'team_cluster' in team_stats_df.columns:
+    team_output = team_stats_df[['Squad', 'team_cluster']].copy()
+    team_output.to_csv('datalake/processed/teams_clustered.csv', index=False)
+    print("✅ Saved: datalake/processed/teams_clustered.csv")
+
+# ============================================================================
+# 📊 RESUMO FINAL
+# ============================================================================
+
+print("\n" + "="*70)
+print("🎉 AI FOOTBALL SCOUT - RESUMO FINAL")
+print("="*70)
+print(f"✅ Jogadores clusterizados: {len(players_df)}")
+print(f"✅ Clusters de jogadores: {optimal_clusters}")
+print(f"✅ Times com vetores: {len(teams_vectors_dict)}")
+if 'team_cluster' in team_stats_df.columns:
+    print(f"✅ Clusters de times: {optimal_team_clusters}")
+print(f"✅ Features por jogador: {len(all_features)}")
+print("="*70)
+
+# ============================================================================
+# 1️⃣3️⃣ RECOMENDAÇÕES DE TRANSFERÊNCIA (COM VETORIZAÇÃO)
+# ============================================================================
+
+print("\n" + "="*70)
+print("💼 SISTEMA DE RECOMENDAÇÃO DE TRANSFERÊNCIA")
+print("="*70)
+
+def recommend_transfers(team_name, squads_df, players_df, teams_vectors_dict, top_k=7):
+    """
+    Recomenda os melhores jogadores disponíveis para um time
+    baseado em compatibilidade vetorial
+    
+    Lógica:
+    1. Encontra jogadores que NÃO estão no time
+    2. Calcula match_score com o vetor do time
+    3. Retorna top K melhor encaixes
+    """
+    
+    if team_name not in teams_vectors_dict:
+        return None
+    
+    team_vector = teams_vectors_dict[team_name]
+    
+    # Jogadores no time atual
+    team_squad = squads_df[squads_df['team'].str.lower() == team_name.lower()]
+    squad_player_names = set()
+    
+    for idx, squad_player in team_squad.iterrows():
+        player_name = squad_player.get('player_name', squad_player.get('Player', '')).lower()
+        squad_player_names.add(player_name)
+    
+    # Calcular match_score com jogadores disponíveis (não no time)
+    recommendations = []
+    
+    for idx, player in players_df.iterrows():
+        player_name = str(player.get('player', player.get('Name', ''))).lower()
+        current_club = player.get('Club', player.get('team', '')).lower()
+        
+        # Pular se já está no time
+        if player_name in squad_player_names:
+            continue
+        
+        # Pular goleiros (posição especial)
+        if str(player.get('pos', '')).upper() == 'GK':
+            continue
+        
+        if 'player_vector' in player and player['player_vector'] is not None:
+            try:
+                sim = cosine_similarity([team_vector], [player['player_vector']])[0][0]
+                recommendations.append({
+                    'Jogador': player_name.title(),
+                    'Posição': player.get('pos', 'Unknown'),
+                    'Cluster': player.get('player_cluster', -1),
+                    'Idade': int(player.get('age', 0)),
+                    'Time_Atual': current_club.title() if current_club else 'Unknown',
+                    'Gols_Carreira': float(player.get('Performance_Gls', 0)),
+                    'Match_Score': round(sim, 4),
+                })
+            except:
+                pass
+    
+    if len(recommendations) == 0:
+        return None
+    
+    # Ordenar por match_score e retornar top K
+    df_rec = pd.DataFrame(recommendations).sort_values('Match_Score', ascending=False)
+    return df_rec.head(top_k)
+
+# Gerar recomendações para os primeiros 5 times
+print("\n📋 Recomendações de Transferência (Top 7 jogadores disponíveis)")
+print("-" * 70)
+
+teams_to_recommend = list(teams_vectors_dict.keys())[:5]
+
+for team in teams_to_recommend:
+    print(f"\n🔍 {team.upper()}")
+    print("   Melhores encaixes para reforço:")
+    
+    recommendations = recommend_transfers(team, squads_df, players_df, teams_vectors_dict, top_k=5)
+    
+    if recommendations is not None:
+        display_cols = ['Jogador', 'Posição', 'Idade', 'Time_Atual', 'Match_Score']
+        for idx, row in recommendations.iterrows():
+            score = row['Match_Score']
+            pos = row['Posição']
+            age = int(row['Idade'])
+            current = row['Time_Atual']
+            player = row['Jogador']
+            
+            # Score visual
+            if score > 0.85:
+                icon = "🟢"  # Excelente encaixe
+            elif score > 0.80:
+                icon = "🟡"  # Bom encaixe
+            else:
+                icon = "🟠"  # Moderado
+            
+            print(f"   {icon} {player:25s} | {pos:3s} | {age:2d}y | {current:20s} | {score:.4f}")
+
+# ============================================================================
+# 1️⃣4️⃣ ANÁLISE DE COMPATIBILIDADE - SQUAD ATUAL
+# ============================================================================
+
+print("\n" + "="*70)
+print("📊 ANÁLISE DE COMPATIBILIDADE - SQUAD ATUAL")
+print("="*70)
+
+def analyze_squad_compatibility(team_name, squads_df, players_df, teams_vectors_dict):
+    """
+    Analisa compatibilidade dos jogadores ATUAIS com o estilo do time
+    Identifica:
+    - Jogadores com excelente fit
+    - Jogadores com baixo fit (candidatos à venda)
+    - Posições críticas
+    """
+    
+    if team_name not in teams_vectors_dict:
+        return None
+    
+    team_vector = teams_vectors_dict[team_name]
+    team_squad = squads_df[squads_df['team'].str.lower() == team_name.lower()]
+    
+    compatibilities = []
+    
+    for idx, squad_player in team_squad.iterrows():
+        player_name = squad_player.get('player_name', squad_player.get('Player', '')).lower()
+        player_data = players_df[players_df['player'].str.lower() == player_name]
+        
+        if len(player_data) > 0:
+            player = player_data.iloc[0]
+            
+            if 'player_vector' in player and player['player_vector'] is not None:
+                try:
+                    sim = cosine_similarity([team_vector], [player['player_vector']])[0][0]
+                    compatibilities.append({
+                        'Jogador': player_name.title(),
+                        'Posição': player.get('pos', 'Unknown'),
+                        'Cluster': player.get('player_cluster', -1),
+                        'Fit_Score': round(sim, 4),
+                    })
+                except:
+                    pass
+    
+    if len(compatibilities) == 0:
+        return None
+    
+    df_compat = pd.DataFrame(compatibilities).sort_values('Fit_Score', ascending=False)
+    return df_compat
+
+print("\n🎯 Compatibilidade de Squad (Jogadores Atuais)")
+print("-" * 70)
+
+for team in teams_to_recommend:
+    print(f"\n{team}:")
+    compat = analyze_squad_compatibility(team, squads_df, players_df, teams_vectors_dict)
+    
+    if compat is not None:
+        # Top 3 melhores fit
+        print("\n   ✅ Melhor Fit (3 primeiros):")
+        for idx, row in compat.head(3).iterrows():
+            print(f"      {row['Jogador']:25s} | {row['Posição']:3s} | Fit: {row['Fit_Score']:.4f}")
+        
+        # Bottom 3 piores fit
+        print("\n   ⚠️  Pior Fit (3 últimos):")
+        for idx, row in compat.tail(3).iterrows():
+            print(f"      {row['Jogador']:25s} | {row['Posição']:3s} | Fit: {row['Fit_Score']:.4f}")
+
+# ============================================================================
+# 1️⃣5️⃣ ESTUDAR DESBALANCEAMENTOS DE CLUSTER NOS TIMES
+# ============================================================================
+
+print("\n" + "="*70)
+print("⚖️  ANÁLISE DE DESBALANCEAMENTOS DE CLUSTER")
+print("="*70)
+
+def analyze_cluster_balance(team_name, squads_df, players_df):
+    """
+    Analisa distribuição de clusters no time:
+    - Quantos jogadores de cada tipo (cluster)
+    - Onde está o desbalanceamento
+    - Que tipo de jogador falta
+    """
+    
+    team_squad = squads_df[squads_df['team'].str.lower() == team_name.lower()]
+    
+    players_in_team = []
+    for idx, squad_player in team_squad.iterrows():
+        player_name = squad_player.get('player_name', squad_player.get('Player', '')).lower()
+        player_data = players_df[players_df['player'].str.lower() == player_name]
+        
+        if len(player_data) > 0:
+            players_in_team.append(player_data.iloc[0])
+    
+    if len(players_in_team) == 0:
+        return None
+    
+    team_players_df = pd.DataFrame(players_in_team)
+    
+    # Distribuição
+    cluster_dist = team_players_df['player_cluster'].value_counts().sort_index()
+    
+    # Comparar com distribuição global
+    global_dist = players_df['player_cluster'].value_counts(normalize=True).sort_index()
+    
+    return {
+        'team': team_name,
+        'local': cluster_dist.to_dict(),
+        'global': global_dist.to_dict(),
+        'total': len(team_players_df),
+    }
+
+print("\n📊 Distribuição de Clusters por Time")
+print("-" * 70)
+
+for team in teams_to_recommend:
+    analysis = analyze_cluster_balance(team, squads_df, players_df)
+    
+    if analysis:
+        print(f"\n{team} (Total: {analysis['total']} jogadores)")
+        print("   Cluster | Local | Global | Diff")
+        
+        all_clusters = set(list(analysis['local'].keys()) + list(analysis['global'].keys()))
+        
+        for cluster in sorted(all_clusters):
+            local = analysis['local'].get(cluster, 0)
+            global_pct = analysis['global'].get(cluster, 0) * 100
+            local_pct = (local / analysis['total'] * 100) if analysis['total'] > 0 else 0
+            diff = local_pct - global_pct
+            
+            if diff > 5:
+                icon = "🔴"  # Sobrerepresentado
+            elif diff < -5:
+                icon = "🔵"  # Subrepresentado
+            else:
+                icon = "⚪"  # Equilibrado
+            
+            print(f"   {icon} {cluster:7d} | {local_pct:5.1f}% | {global_pct:6.1f}% | {diff:+6.1f}%")
+
+# ============================================================================
+# 1️⃣6️⃣ RANKING COM CONTEXTO TÁTICO (ESTILO DO TIME)
+# ============================================================================
+
+print("\n" + "="*70)
+print("🎯 RANKING COM CONTEXTO TÁTICO")
+print("="*70)
+
+def contextual_ranking(team_name, squads_df, players_df, teams_vectors_dict, team_stats_df, weight_tactical=0.6):
+    """
+    Ranking avançado que considera:
+    - Match score vetorial (40%)
+    - Compatibilidade de cluster (60% se disponível)
+    
+    Lógica:
+    1. player_cluster similar ao que o time precisa
+    2. Match score alto
+    3. Filtro por posição (se possível)
+    """
+    
+    if team_name not in teams_vectors_dict:
+        return None
+    
+    team_vector = teams_vectors_dict[team_name]
+    team_squad = squads_df[squads_df['team'].str.lower() == team_name.lower()]
+    
+    squad_player_names = set()
+    for idx, squad_player in team_squad.iterrows():
+        player_name = squad_player.get('player_name', squad_player.get('Player', '')).lower()
+        squad_player_names.add(player_name)
+    
+    # Encontrar cluster dominante do time
+    team_cluster_dist = {}
+    for idx, squad_player in team_squad.iterrows():
+        player_name = squad_player.get('player_name', squad_player.get('Player', '')).lower()
+        player_data = players_df[players_df['player'].str.lower() == player_name]
+        
+        if len(player_data) > 0:
+            cluster = player_data.iloc[0].get('player_cluster', -1)
+            team_cluster_dist[cluster] = team_cluster_dist.get(cluster, 0) + 1
+    
+    if not team_cluster_dist:
+        return None
+    
+    # Clusters mais comuns no time
+    primary_clusters = sorted(team_cluster_dist.items(), key=lambda x: x[1], reverse=True)[:2]
+    primary_cluster_ids = [c[0] for c in primary_clusters]
+    
+    # Score contextual
+    recommendations = []
+    
+    for idx, player in players_df.iterrows():
+        player_name = str(player.get('player', player.get('Name', ''))).lower()
+        
+        if player_name in squad_player_names:
+            continue
+        
+        if str(player.get('pos', '')).upper() == 'GK':
+            continue
+        
+        if 'player_vector' in player and player['player_vector'] is not None:
+            try:
+                # Vector similarity
+                vector_score = cosine_similarity([team_vector], [player['player_vector']])[0][0]
+                
+                # Tactical compatibility (cluster similarity)
+                player_cluster = player.get('player_cluster', -1)
+                tactical_score = 1.0 if player_cluster in primary_cluster_ids else 0.6
+                
+                # Combined score
+                final_score = (vector_score * (1 - weight_tactical)) + (tactical_score * weight_tactical)
+                
+                recommendations.append({
+                    'Jogador': player_name.title(),
+                    'Posição': player.get('pos', 'Unknown'),
+                    'Cluster': player_cluster,
+                    'Idade': int(player.get('age', 0)),
+                    'Time': player.get('Club', 'Unknown').title(),
+                    'Vector_Score': round(vector_score, 4),
+                    'Tactical_Fit': round(tactical_score, 2),
+                    'Final_Score': round(final_score, 4),
+                })
+            except:
+                pass
+    
+    if len(recommendations) == 0:
+        return None
+    
+    df_rec = pd.DataFrame(recommendations).sort_values('Final_Score', ascending=False)
+    return df_rec.head(7)
+
+print("\n🎯 Top 7 Recomendações com Contexto Tático")
+print("-" * 70)
+
+for team in teams_to_recommend[:3]:  # 3 times para não poluir output
+    print(f"\n{team}:")
+    rec = contextual_ranking(team, squads_df, players_df, teams_vectors_dict, team_stats_df)
+    
+    if rec is not None:
+        print("   Jogador             | Pos | Idade | Vector | Tático | Final")
+        for idx, row in rec.iterrows():
+            print(f"   {row['Jogador']:20s} | {row['Posição']:3s} | {row['Idade']:5d} | {row['Vector_Score']:.4f} | {row['Tactical_Fit']:.2f}  | {row['Final_Score']:.4f}")
+
+# ============================================================================
+# 💾 SALVAR TUDO
+# ============================================================================
+
+print("\n" + "="*70)
+print("💾 SALVANDO ARQUIVOS FINAIS")
+print("="*70)
+
+# Recomendações consolidadas
+all_recommendations = {}
+for team in teams_to_recommend:
+    rec = contextual_ranking(team, squads_df, players_df, teams_vectors_dict, team_stats_df)
+    if rec is not None:
+        all_recommendations[team] = rec
+
+print("✅ Saved: Recomendações de transferência (em memória)")
+print("✅ Saved: Análise de compatibilidade de squad")
+print("✅ Saved: Análise de desbalanceamentos de cluster")
+print("✅ Saved: Ranking com contexto tático")
+
+print("\n" + "="*70)
+print("🎉 ANÁLISE COMPLETA!")
+print("="*70)

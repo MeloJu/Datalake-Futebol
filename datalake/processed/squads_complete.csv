@@ -1,0 +1,554 @@
+team,season,season_year,player_name,position,shirt_number,age,nationality,market_value,player_url,scraped_date,market_value_millions,league
+Bayern Munich,2025-2026,2025,Aleksandar Pavlovic,,45,,,€55.00m,https://www.transfermarkt.com/aleksandar-pavlovic/profil/spieler/792380,2025-12-15,55.0,Bundesliga
+Bayern Munich,2025-2026,2025,Alphonso Davies,,19,,,€50.00m,https://www.transfermarkt.com/alphonso-davies/profil/spieler/424204,2025-12-15,50.0,Bundesliga
+Bayern Munich,2025-2026,2025,Dayot Upamecano,,2,,,€60.00m,https://www.transfermarkt.com/dayot-upamecano/profil/spieler/344695,2025-12-15,60.0,Bundesliga
+Bayern Munich,2025-2026,2025,Harry Kane,,9,,,€75.00m,https://www.transfermarkt.com/harry-kane/profil/spieler/132098,2025-12-15,75.0,Bundesliga
+Bayern Munich,2025-2026,2025,Hiroki Ito,,21,,,€18.00m,https://www.transfermarkt.com/hiroki-ito/profil/spieler/353892,2025-12-15,18.0,Bundesliga
+Bayern Munich,2025-2026,2025,Jamal Musiala,,10,,,€140.00m,https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195,2025-12-15,140.0,Bundesliga
+Bayern Munich,2025-2026,2025,Jonas Urbig,,40,,,€12.00m,https://www.transfermarkt.com/jonas-urbig/profil/spieler/607720,2025-12-15,12.0,Bundesliga
+Bayern Munich,2025-2026,2025,Jonathan Tah,,4,,,€30.00m,https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357,2025-12-15,30.0,Bundesliga
+Bayern Munich,2025-2026,2025,Joshua Kimmich,,6,,,€45.00m,https://www.transfermarkt.com/joshua-kimmich/profil/spieler/161056,2025-12-15,45.0,Bundesliga
+Bayern Munich,2025-2026,2025,Josip Stanisic,,44,,,€32.00m,https://www.transfermarkt.com/josip-stanisic/profil/spieler/483046,2025-12-15,32.0,Bundesliga
+Bayern Munich,2025-2026,2025,Konrad Laimer,,27,,,€25.00m,https://www.transfermarkt.com/konrad-laimer/profil/spieler/223967,2025-12-15,25.0,Bundesliga
+Bayern Munich,2025-2026,2025,Lennart Karl,,42,,,€20.00m,https://www.transfermarkt.com/lennart-karl/profil/spieler/1075147,2025-12-15,20.0,Bundesliga
+Bayern Munich,2025-2026,2025,Leon Goretzka,,8,,,€22.00m,https://www.transfermarkt.com/leon-goretzka/profil/spieler/153084,2025-12-15,22.0,Bundesliga
+Bayern Munich,2025-2026,2025,Leon Klanac,,48,,,€150k,https://www.transfermarkt.com/leon-klanac/profil/spieler/1009439,2025-12-15,0.15,Bundesliga
+Bayern Munich,2025-2026,2025,Luis Díaz,,14,,,€70.00m,https://www.transfermarkt.com/luis-diaz/profil/spieler/480692,2025-12-15,70.0,Bundesliga
+Bayern Munich,2025-2026,2025,Manuel Neuer,,1,,,€4.00m,https://www.transfermarkt.com/manuel-neuer/profil/spieler/17259,2025-12-15,4.0,Bundesliga
+Bayern Munich,2025-2026,2025,Michael Olise,,17,,,€130.00m,https://www.transfermarkt.com/michael-olise/profil/spieler/566723,2025-12-15,130.0,Bundesliga
+Bayern Munich,2025-2026,2025,Min-jae Kim,,3,,,€32.00m,https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482,2025-12-15,32.0,Bundesliga
+Bayern Munich,2025-2026,2025,Nicolas Jackson,,11,,,€50.00m,https://www.transfermarkt.com/nicolas-jackson/profil/spieler/776890,2025-12-15,50.0,Bundesliga
+Bayern Munich,2025-2026,2025,Raphaël Guerreiro,,22,,,€8.00m,https://www.transfermarkt.com/raphael-guerreiro/profil/spieler/170986,2025-12-15,8.0,Bundesliga
+Bayern Munich,2025-2026,2025,Sacha Boey,,23,,,€18.00m,https://www.transfermarkt.com/sacha-boey/profil/spieler/475413,2025-12-15,18.0,Bundesliga
+Bayern Munich,2025-2026,2025,Serge Gnabry,,7,,,€22.00m,https://www.transfermarkt.com/serge-gnabry/profil/spieler/159471,2025-12-15,22.0,Bundesliga
+Bayern Munich,2025-2026,2025,Sven Ulreich,,26,,,€500k,https://www.transfermarkt.com/sven-ulreich/profil/spieler/40680,2025-12-15,0.5,Bundesliga
+Bayern Munich,2025-2026,2025,Tom Bischof,,20,,,€30.00m,https://www.transfermarkt.com/tom-bischof/profil/spieler/822959,2025-12-15,30.0,Bundesliga
+Bayern Munich,2025-2026,2025,Wisdom Mike,,36,,,€3.00m,https://www.transfermarkt.com/wisdom-mike/profil/spieler/1084539,2025-12-15,3.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Aarón Anselmino,,28,,,€8.00m,https://www.transfermarkt.com/aaron-anselmino/profil/spieler/1145504,2025-12-15,8.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Alexander Meyer,,33,,,€800k,https://www.transfermarkt.com/alexander-meyer/profil/spieler/76158,2025-12-15,0.8,Bundesliga
+Borussia Dortmund,2025-2026,2025,Almugera Kabar,,42,,,€3.00m,https://www.transfermarkt.com/almugera-kabar/profil/spieler/884820,2025-12-15,3.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Carney Chukwuemeka,,17,,,€20.00m,https://www.transfermarkt.com/carney-chukwuemeka/profil/spieler/659459,2025-12-15,20.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Cole Campbell,,37,,,€5.00m,https://www.transfermarkt.com/cole-campbell/profil/spieler/866579,2025-12-15,5.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Daniel Svensson,,24,,,€22.00m,https://www.transfermarkt.com/daniel-svensson/profil/spieler/579287,2025-12-15,22.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Emre Can,,23,,,€7.00m,https://www.transfermarkt.com/emre-can/profil/spieler/119296,2025-12-15,7.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Felix Nmecha,,8,,,€35.00m,https://www.transfermarkt.com/felix-nmecha/profil/spieler/406640,2025-12-15,35.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Filippo Mane,,39,,,€2.50m,https://www.transfermarkt.com/filippo-mane/profil/spieler/883007,2025-12-15,2.5,Bundesliga
+Borussia Dortmund,2025-2026,2025,Fábio Silva,,21,,,€28.00m,https://www.transfermarkt.com/fabio-silva/profil/spieler/505653,2025-12-15,28.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Gregor Kobel,,1,,,€40.00m,https://www.transfermarkt.com/gregor-kobel/profil/spieler/257814,2025-12-15,40.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Jobe Bellingham,,7,,,€30.00m,https://www.transfermarkt.com/jobe-bellingham/profil/spieler/796297,2025-12-15,30.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Julian Brandt,,10,,,€25.00m,https://www.transfermarkt.com/julian-brandt/profil/spieler/187492,2025-12-15,25.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Julian Ryerson,,26,,,€20.00m,https://www.transfermarkt.com/julian-ryerson/profil/spieler/370789,2025-12-15,20.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Julien Duranville,,16,,,€8.50m,https://www.transfermarkt.com/julien-duranville/profil/spieler/819215,2025-12-15,8.5,Bundesliga
+Borussia Dortmund,2025-2026,2025,Karim Adeyemi,,27,,,€60.00m,https://www.transfermarkt.com/karim-adeyemi/profil/spieler/496094,2025-12-15,60.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Marcel Sabitzer,,20,,,€8.00m,https://www.transfermarkt.com/marcel-sabitzer/profil/spieler/106987,2025-12-15,8.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Maximilian Beier,,14,,,€30.00m,https://www.transfermarkt.com/maximilian-beier/profil/spieler/578392,2025-12-15,30.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Nico Schlotterbeck,,4,,,€40.00m,https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/388198,2025-12-15,40.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Niklas Süle,,25,,,€8.00m,https://www.transfermarkt.com/niklas-sule/profil/spieler/166601,2025-12-15,8.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Pascal Groß,,13,,,€5.00m,https://www.transfermarkt.com/pascal-gross/profil/spieler/82873,2025-12-15,5.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Patrick Drewes,,30,,,€500k,https://www.transfermarkt.com/patrick-drewes/profil/spieler/94192,2025-12-15,0.5,Bundesliga
+Borussia Dortmund,2025-2026,2025,Ramy Bensebaini,,5,,,€7.00m,https://www.transfermarkt.com/ramy-bensebaini/profil/spieler/284732,2025-12-15,7.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Salih Özcan,,6,,,€4.00m,https://www.transfermarkt.com/salih-ozcan/profil/spieler/244940,2025-12-15,4.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Serhou Guirassy,,9,,,€45.00m,https://www.transfermarkt.com/serhou-guirassy/profil/spieler/270541,2025-12-15,45.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Silas Ostrzinski,,31,,,€200k,https://www.transfermarkt.com/silas-ostrzinski/profil/spieler/684116,2025-12-15,0.2,Bundesliga
+Borussia Dortmund,2025-2026,2025,Waldemar Anton,,3,,,€18.00m,https://www.transfermarkt.com/waldemar-anton/profil/spieler/193004,2025-12-15,18.0,Bundesliga
+Borussia Dortmund,2025-2026,2025,Yan Couto,,2,,,€20.00m,https://www.transfermarkt.com/yan-couto/profil/spieler/627228,2025-12-15,20.0,Bundesliga
+RB Leipzig,2025-2026,2025,Amadou Haidara,,8,,,€12.00m,https://www.transfermarkt.com/amadou-haidara/profil/spieler/402008,2025-12-15,12.0,Bundesliga
+RB Leipzig,2025-2026,2025,Andrija Maksimovic,,33,,,€15.00m,https://www.transfermarkt.com/andrija-maksimovic/profil/spieler/952779,2025-12-15,15.0,Bundesliga
+RB Leipzig,2025-2026,2025,Antonio Nusa,,7,,,€28.00m,https://www.transfermarkt.com/antonio-nusa/profil/spieler/894914,2025-12-15,28.0,Bundesliga
+RB Leipzig,2025-2026,2025,Assan Ouédraogo,,20,,,€10.00m,https://www.transfermarkt.com/assan-ouedraogo/profil/spieler/897424,2025-12-15,10.0,Bundesliga
+RB Leipzig,2025-2026,2025,Benjamin Henrichs,,39,,,€12.00m,https://www.transfermarkt.com/benjamin-henrichs/profil/spieler/202591,2025-12-15,12.0,Bundesliga
+RB Leipzig,2025-2026,2025,Castello Lukeba,,23,,,€40.00m,https://www.transfermarkt.com/castello-lukeba/profil/spieler/618472,2025-12-15,40.0,Bundesliga
+RB Leipzig,2025-2026,2025,Christoph Baumgartner,,14,,,€12.00m,https://www.transfermarkt.com/christoph-baumgartner/profil/spieler/324278,2025-12-15,12.0,Bundesliga
+RB Leipzig,2025-2026,2025,Conrad Harder,,11,,,€24.00m,https://www.transfermarkt.com/conrad-harder/profil/spieler/807386,2025-12-15,24.0,Bundesliga
+RB Leipzig,2025-2026,2025,David Raum,,22,,,€20.00m,https://www.transfermarkt.com/david-raum/profil/spieler/318204,2025-12-15,20.0,Bundesliga
+RB Leipzig,2025-2026,2025,El Chadaille Bitshiabu,,5,,,€15.00m,https://www.transfermarkt.com/el-chadaille-bitshiabu/profil/spieler/787912,2025-12-15,15.0,Bundesliga
+RB Leipzig,2025-2026,2025,Ezechiel Banzuzi,,6,,,€18.00m,https://www.transfermarkt.com/ezechiel-banzuzi/profil/spieler/865682,2025-12-15,18.0,Bundesliga
+RB Leipzig,2025-2026,2025,Johan Bakayoko,,9,,,€30.00m,https://www.transfermarkt.com/johan-bakayoko/profil/spieler/565424,2025-12-15,30.0,Bundesliga
+RB Leipzig,2025-2026,2025,Joyeux Masanka Bungi,,42,,,"1,86m",https://www.transfermarkt.com/joyeux-masanka-bungi/profil/spieler/990146,2025-12-15,0.0,Bundesliga
+RB Leipzig,2025-2026,2025,Kevin Kampl,,44,,,€2.50m,https://www.transfermarkt.com/kevin-kampl/profil/spieler/53418,2025-12-15,2.5,Bundesliga
+RB Leipzig,2025-2026,2025,Kosta Nedeljkovic,,19,,,€10.00m,https://www.transfermarkt.com/kosta-nedeljkovic/profil/spieler/848682,2025-12-15,10.0,Bundesliga
+RB Leipzig,2025-2026,2025,Leopold Zingerle,,25,,,€400k,https://www.transfermarkt.com/leopold-zingerle/profil/spieler/160971,2025-12-15,0.4,Bundesliga
+RB Leipzig,2025-2026,2025,Lukas Klostermann,,16,,,€5.00m,https://www.transfermarkt.com/lukas-klostermann/profil/spieler/215599,2025-12-15,5.0,Bundesliga
+RB Leipzig,2025-2026,2025,Maarten Vandevoordt,,26,,,€8.00m,https://www.transfermarkt.com/maarten-vandevoordt/profil/spieler/486046,2025-12-15,8.0,Bundesliga
+RB Leipzig,2025-2026,2025,Max Finkgräfe,,35,,,€4.00m,https://www.transfermarkt.com/max-finkgrafe/profil/spieler/810649,2025-12-15,4.0,Bundesliga
+RB Leipzig,2025-2026,2025,Nicolas Seiwald,,13,,,€18.00m,https://www.transfermarkt.com/nicolas-seiwald/profil/spieler/404950,2025-12-15,18.0,Bundesliga
+RB Leipzig,2025-2026,2025,Péter Gulácsi,,1,,,€2.00m,https://www.transfermarkt.com/peter-gulacsi/profil/spieler/57071,2025-12-15,2.0,Bundesliga
+RB Leipzig,2025-2026,2025,Ridle Baku,,17,,,€12.00m,https://www.transfermarkt.com/ridle-baku/profil/spieler/327251,2025-12-15,12.0,Bundesliga
+RB Leipzig,2025-2026,2025,Rômulo,,40,,,€22.00m,https://www.transfermarkt.com/romulo/profil/spieler/957874,2025-12-15,22.0,Bundesliga
+RB Leipzig,2025-2026,2025,Samba Konaté,,45,,,€1.00m,https://www.transfermarkt.com/samba-konate/profil/spieler/1380977,2025-12-15,1.0,Bundesliga
+RB Leipzig,2025-2026,2025,Tidiam Gomis,,27,,,€3.00m,https://www.transfermarkt.com/tidiam-gomis/profil/spieler/955448,2025-12-15,3.0,Bundesliga
+RB Leipzig,2025-2026,2025,Timo Werner,,36,,,€5.00m,https://www.transfermarkt.com/timo-werner/profil/spieler/170527,2025-12-15,5.0,Bundesliga
+RB Leipzig,2025-2026,2025,Viggo Gebel,,47,,,€350k,https://www.transfermarkt.com/viggo-gebel/profil/spieler/1074526,2025-12-15,0.35,Bundesliga
+RB Leipzig,2025-2026,2025,Willi Orbán,,4,,,€8.00m,https://www.transfermarkt.com/willi-orban/profil/spieler/93740,2025-12-15,8.0,Bundesliga
+RB Leipzig,2025-2026,2025,Xaver Schlager,,24,,,€10.00m,https://www.transfermarkt.com/xaver-schlager/profil/spieler/223979,2025-12-15,10.0,Bundesliga
+RB Leipzig,2025-2026,2025,Yan Diomande,,49,,,€20.00m,https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649,2025-12-15,20.0,Bundesliga
+Atlético Madrid,2025-2026,2025,Alexander Sørloth,,9,,,€20.00m,https://www.transfermarkt.com/alexander-sorloth/profil/spieler/238407,2025-12-15,20.0,La Liga
+Atlético Madrid,2025-2026,2025,Antoine Griezmann,,7,,,€11.00m,https://www.transfermarkt.com/antoine-griezmann/profil/spieler/125781,2025-12-15,11.0,La Liga
+Atlético Madrid,2025-2026,2025,Carlos Martín,,12,,,€2.50m,https://www.transfermarkt.com/carlos-martin/profil/spieler/618813,2025-12-15,2.5,La Liga
+Atlético Madrid,2025-2026,2025,Clément Lenglet,,15,,,€6.00m,https://www.transfermarkt.com/clement-lenglet/profil/spieler/182904,2025-12-15,6.0,La Liga
+Atlético Madrid,2025-2026,2025,Conor Gallagher,,4,,,€35.00m,https://www.transfermarkt.com/conor-gallagher/profil/spieler/488362,2025-12-15,35.0,La Liga
+Atlético Madrid,2025-2026,2025,Dávid Hancko,,17,,,€30.00m,https://www.transfermarkt.com/david-hancko/profil/spieler/404418,2025-12-15,30.0,La Liga
+Atlético Madrid,2025-2026,2025,Giacomo Raspadori,,22,,,€22.00m,https://www.transfermarkt.com/giacomo-raspadori/profil/spieler/405885,2025-12-15,22.0,La Liga
+Atlético Madrid,2025-2026,2025,Giuliano Simeone,,20,,,€40.00m,https://www.transfermarkt.com/giuliano-simeone/profil/spieler/742201,2025-12-15,40.0,La Liga
+Atlético Madrid,2025-2026,2025,Jan Oblak,,13,,,€17.00m,https://www.transfermarkt.com/jan-oblak/profil/spieler/121483,2025-12-15,17.0,La Liga
+Atlético Madrid,2025-2026,2025,Javi Galán,,21,,,€3.50m,https://www.transfermarkt.com/javi-galan/profil/spieler/448628,2025-12-15,3.5,La Liga
+Atlético Madrid,2025-2026,2025,Johnny Cardoso,,5,,,€22.00m,https://www.transfermarkt.com/johnny-cardoso/profil/spieler/689505,2025-12-15,22.0,La Liga
+Atlético Madrid,2025-2026,2025,José María Giménez,,2,,,€14.00m,https://www.transfermarkt.com/jose-maria-gimenez/profil/spieler/250845,2025-12-15,14.0,La Liga
+Atlético Madrid,2025-2026,2025,Juan Musso,,1,,,€3.00m,https://www.transfermarkt.com/juan-musso/profil/spieler/242359,2025-12-15,3.0,La Liga
+Atlético Madrid,2025-2026,2025,Julián Alvarez,,19,,,€100.00m,https://www.transfermarkt.com/julian-alvarez/profil/spieler/576024,2025-12-15,100.0,La Liga
+Atlético Madrid,2025-2026,2025,Koke,,6,,,€7.00m,https://www.transfermarkt.com/koke/profil/spieler/74229,2025-12-15,7.0,La Liga
+Atlético Madrid,2025-2026,2025,Marc Pubill,,18,,,€15.00m,https://www.transfermarkt.com/marc-pubill/profil/spieler/844637,2025-12-15,15.0,La Liga
+Atlético Madrid,2025-2026,2025,Marcos Llorente,,14,,,€22.00m,https://www.transfermarkt.com/marcos-llorente/profil/spieler/282411,2025-12-15,22.0,La Liga
+Atlético Madrid,2025-2026,2025,Matteo Ruggeri,,3,,,€15.00m,https://www.transfermarkt.com/matteo-ruggeri/profil/spieler/616631,2025-12-15,15.0,La Liga
+Atlético Madrid,2025-2026,2025,Nahuel Molina,,16,,,€15.00m,https://www.transfermarkt.com/nahuel-molina/profil/spieler/424042,2025-12-15,15.0,La Liga
+Atlético Madrid,2025-2026,2025,Nico González,,23,,,€24.00m,https://www.transfermarkt.com/nico-gonzalez/profil/spieler/486031,2025-12-15,24.0,La Liga
+Atlético Madrid,2025-2026,2025,Pablo Barrios,,8,,,€60.00m,https://www.transfermarkt.com/pablo-barrios/profil/spieler/775605,2025-12-15,60.0,La Liga
+Atlético Madrid,2025-2026,2025,Robin Le Normand,,24,,,€30.00m,https://www.transfermarkt.com/robin-le-normand/profil/spieler/351809,2025-12-15,30.0,La Liga
+Atlético Madrid,2025-2026,2025,Thiago Almada,,11,,,€20.00m,https://www.transfermarkt.com/thiago-almada/profil/spieler/576028,2025-12-15,20.0,La Liga
+Atlético Madrid,2025-2026,2025,Álex Baena,,10,,,€55.00m,https://www.transfermarkt.com/alex-baena/profil/spieler/548111,2025-12-15,55.0,La Liga
+Barcelona,2025-2026,2025,Alejandro Balde,,3,,,€60.00m,https://www.transfermarkt.com/alejandro-balde/profil/spieler/636688,2025-12-15,60.0,La Liga
+Barcelona,2025-2026,2025,Andreas Christensen,,15,,,€10.00m,https://www.transfermarkt.com/andreas-christensen/profil/spieler/196948,2025-12-15,10.0,La Liga
+Barcelona,2025-2026,2025,Dani Olmo,,20,,,€60.00m,https://www.transfermarkt.com/dani-olmo/profil/spieler/293385,2025-12-15,60.0,La Liga
+Barcelona,2025-2026,2025,Dro Fernández,,27,,,€10.00m,https://www.transfermarkt.com/dro-fernandez/profil/spieler/1071596,2025-12-15,10.0,La Liga
+Barcelona,2025-2026,2025,Eric García,,24,,,€30.00m,https://www.transfermarkt.com/eric-garcia/profil/spieler/466794,2025-12-15,30.0,La Liga
+Barcelona,2025-2026,2025,Fermín López,,16,,,€70.00m,https://www.transfermarkt.com/fermin-lopez/profil/spieler/636703,2025-12-15,70.0,La Liga
+Barcelona,2025-2026,2025,Ferran Torres,,7,,,€50.00m,https://www.transfermarkt.com/ferran-torres/profil/spieler/398184,2025-12-15,50.0,La Liga
+Barcelona,2025-2026,2025,Frenkie de Jong,,21,,,€45.00m,https://www.transfermarkt.com/frenkie-de-jong/profil/spieler/326330,2025-12-15,45.0,La Liga
+Barcelona,2025-2026,2025,Gavi,,6,,,€40.00m,https://www.transfermarkt.com/gavi/profil/spieler/646740,2025-12-15,40.0,La Liga
+Barcelona,2025-2026,2025,Gerard Martín,,18,,,€20.00m,https://www.transfermarkt.com/gerard-martin/profil/spieler/705395,2025-12-15,20.0,La Liga
+Barcelona,2025-2026,2025,Joan García,,13,,,€30.00m,https://www.transfermarkt.com/joan-garcia/profil/spieler/561613,2025-12-15,30.0,La Liga
+Barcelona,2025-2026,2025,Jules Koundé,,23,,,€65.00m,https://www.transfermarkt.com/jules-kounde/profil/spieler/411975,2025-12-15,65.0,La Liga
+Barcelona,2025-2026,2025,Lamine Yamal,,10,,,€200.00m,https://www.transfermarkt.com/lamine-yamal/profil/spieler/937958,2025-12-15,200.0,La Liga
+Barcelona,2025-2026,2025,Marc Bernal,,22,,,€10.00m,https://www.transfermarkt.com/marc-bernal/profil/spieler/1018920,2025-12-15,10.0,La Liga
+Barcelona,2025-2026,2025,Marc Casadó,,17,,,€25.00m,https://www.transfermarkt.com/marc-casado/profil/spieler/636695,2025-12-15,25.0,La Liga
+Barcelona,2025-2026,2025,Marc-André ter Stegen,,1,,,€7.00m,https://www.transfermarkt.com/marc-andre-ter-stegen/profil/spieler/74857,2025-12-15,7.0,La Liga
+Barcelona,2025-2026,2025,Marcus Rashford,,14,,,€40.00m,https://www.transfermarkt.com/marcus-rashford/profil/spieler/258923,2025-12-15,40.0,La Liga
+Barcelona,2025-2026,2025,Pau Cubarsí,,5,,,€80.00m,https://www.transfermarkt.com/pau-cubarsi/profil/spieler/962110,2025-12-15,80.0,La Liga
+Barcelona,2025-2026,2025,Pedri,,8,,,€140.00m,https://www.transfermarkt.com/pedri/profil/spieler/683840,2025-12-15,140.0,La Liga
+Barcelona,2025-2026,2025,Raphinha,,11,,,€80.00m,https://www.transfermarkt.com/raphinha/profil/spieler/411295,2025-12-15,80.0,La Liga
+Barcelona,2025-2026,2025,Robert Lewandowski,,9,,,€9.00m,https://www.transfermarkt.com/robert-lewandowski/profil/spieler/38253,2025-12-15,9.0,La Liga
+Barcelona,2025-2026,2025,Ronald Araujo,,4,,,€25.00m,https://www.transfermarkt.com/ronald-araujo/profil/spieler/480267,2025-12-15,25.0,La Liga
+Barcelona,2025-2026,2025,Roony Bardghji,,28,,,€10.00m,https://www.transfermarkt.com/roony-bardghji/profil/spieler/792331,2025-12-15,10.0,La Liga
+Barcelona,2025-2026,2025,Wojciech Szczesny,,25,,,€900k,https://www.transfermarkt.com/wojciech-szczesny/profil/spieler/44058,2025-12-15,0.9,La Liga
+Real Madrid,2025-2026,2025,Andriy Lunin,,13,,,€15.00m,https://www.transfermarkt.com/andriy-lunin/profil/spieler/404839,2025-12-15,15.0,La Liga
+Real Madrid,2025-2026,2025,Antonio Rüdiger,,22,,,€12.00m,https://www.transfermarkt.com/antonio-rudiger/profil/spieler/86202,2025-12-15,12.0,La Liga
+Real Madrid,2025-2026,2025,Arda Güler,,15,,,€90.00m,https://www.transfermarkt.com/arda-guler/profil/spieler/861410,2025-12-15,90.0,La Liga
+Real Madrid,2025-2026,2025,Aurélien Tchouaméni,,14,,,€75.00m,https://www.transfermarkt.com/aurelien-tchouameni/profil/spieler/413112,2025-12-15,75.0,La Liga
+Real Madrid,2025-2026,2025,Brahim Díaz,,21,,,€35.00m,https://www.transfermarkt.com/brahim-diaz/profil/spieler/314678,2025-12-15,35.0,La Liga
+Real Madrid,2025-2026,2025,Dani Ceballos,,19,,,€8.00m,https://www.transfermarkt.com/dani-ceballos/profil/spieler/319745,2025-12-15,8.0,La Liga
+Real Madrid,2025-2026,2025,Daniel Carvajal,,2,,,€7.00m,https://www.transfermarkt.com/daniel-carvajal/profil/spieler/138927,2025-12-15,7.0,La Liga
+Real Madrid,2025-2026,2025,David Alaba,,4,,,€4.00m,https://www.transfermarkt.com/david-alaba/profil/spieler/59016,2025-12-15,4.0,La Liga
+Real Madrid,2025-2026,2025,Dean Huijsen,,24,,,€70.00m,https://www.transfermarkt.com/dean-huijsen/profil/spieler/890290,2025-12-15,70.0,La Liga
+Real Madrid,2025-2026,2025,Eduardo Camavinga,,6,,,€50.00m,https://www.transfermarkt.com/eduardo-camavinga/profil/spieler/640428,2025-12-15,50.0,La Liga
+Real Madrid,2025-2026,2025,Endrick,,9,,,€25.00m,https://www.transfermarkt.com/endrick/profil/spieler/971570,2025-12-15,25.0,La Liga
+Real Madrid,2025-2026,2025,Federico Valverde,,8,,,€120.00m,https://www.transfermarkt.com/federico-valverde/profil/spieler/369081,2025-12-15,120.0,La Liga
+Real Madrid,2025-2026,2025,Ferland Mendy,,23,,,€8.00m,https://www.transfermarkt.com/ferland-mendy/profil/spieler/291417,2025-12-15,8.0,La Liga
+Real Madrid,2025-2026,2025,Fran García,,20,,,€15.00m,https://www.transfermarkt.com/fran-garcia/profil/spieler/341264,2025-12-15,15.0,La Liga
+Real Madrid,2025-2026,2025,Franco Mastantuono,,30,,,€50.00m,https://www.transfermarkt.com/franco-mastantuono/profil/spieler/1057316,2025-12-15,50.0,La Liga
+Real Madrid,2025-2026,2025,Gonzalo García,,16,,,€15.00m,https://www.transfermarkt.com/gonzalo-garcia/profil/spieler/935230,2025-12-15,15.0,La Liga
+Real Madrid,2025-2026,2025,Jude Bellingham,,5,,,€160.00m,https://www.transfermarkt.com/jude-bellingham/profil/spieler/581678,2025-12-15,160.0,La Liga
+Real Madrid,2025-2026,2025,Kylian Mbappé,,10,,,€200.00m,https://www.transfermarkt.com/kylian-mbappe/profil/spieler/342229,2025-12-15,200.0,La Liga
+Real Madrid,2025-2026,2025,Raúl Asencio,,17,,,€30.00m,https://www.transfermarkt.com/raul-asencio/profil/spieler/935245,2025-12-15,30.0,La Liga
+Real Madrid,2025-2026,2025,Rodrygo,,11,,,€60.00m,https://www.transfermarkt.com/rodrygo/profil/spieler/412363,2025-12-15,60.0,La Liga
+Real Madrid,2025-2026,2025,Thibaut Courtois,,1,,,€18.00m,https://www.transfermarkt.com/thibaut-courtois/profil/spieler/108390,2025-12-15,18.0,La Liga
+Real Madrid,2025-2026,2025,Trent Alexander-Arnold,,12,,,€70.00m,https://www.transfermarkt.com/trent-alexander-arnold/profil/spieler/314353,2025-12-15,70.0,La Liga
+Real Madrid,2025-2026,2025,Vinicius Junior,,7,,,€150.00m,https://www.transfermarkt.com/vinicius-junior/profil/spieler/371998,2025-12-15,150.0,La Liga
+Real Madrid,2025-2026,2025,Álvaro Carreras,,18,,,€60.00m,https://www.transfermarkt.com/alvaro-carreras/profil/spieler/811778,2025-12-15,60.0,La Liga
+Real Madrid,2025-2026,2025,Éder Militão,,3,,,€30.00m,https://www.transfermarkt.com/eder-militao/profil/spieler/401530,2025-12-15,30.0,La Liga
+Marseille,2025-2026,2025,Amine Gouiri,,9,,,€28.00m,https://www.transfermarkt.com/amine-gouiri/profil/spieler/418659,2025-12-15,28.0,Ligue 1
+Marseille,2025-2026,2025,Amir Murillo,,62,,,€10.00m,https://www.transfermarkt.com/amir-murillo/profil/spieler/354482,2025-12-15,10.0,Ligue 1
+Marseille,2025-2026,2025,Angel Gomes,,8,,,€18.00m,https://www.transfermarkt.com/angel-gomes/profil/spieler/392770,2025-12-15,18.0,Ligue 1
+Marseille,2025-2026,2025,Arthur Vermeeren,,18,,,€28.00m,https://www.transfermarkt.com/arthur-vermeeren/profil/spieler/926694,2025-12-15,28.0,Ligue 1
+Marseille,2025-2026,2025,Benjamin Pavard,,28,,,€20.00m,https://www.transfermarkt.com/benjamin-pavard/profil/spieler/353366,2025-12-15,20.0,Ligue 1
+Marseille,2025-2026,2025,Bilal Nadir,,26,,,€9.00m,https://www.transfermarkt.com/bilal-nadir/profil/spieler/659520,2025-12-15,9.0,Ligue 1
+Marseille,2025-2026,2025,CJ Egan-Riley,,4,,,€12.00m,https://www.transfermarkt.com/cj-egan-riley/profil/spieler/581669,2025-12-15,12.0,Ligue 1
+Marseille,2025-2026,2025,Darryl Bakola,,50,,,€4.00m,https://www.transfermarkt.com/darryl-bakola/profil/spieler/1170286,2025-12-15,4.0,Ligue 1
+Marseille,2025-2026,2025,Emerson,,33,,,€10.00m,https://www.transfermarkt.com/emerson/profil/spieler/181778,2025-12-15,10.0,Ligue 1
+Marseille,2025-2026,2025,Facundo Medina,,32,,,€20.00m,https://www.transfermarkt.com/facundo-medina/profil/spieler/474800,2025-12-15,20.0,Ligue 1
+Marseille,2025-2026,2025,Geoffrey Kondogbia,,19,,,€5.00m,https://www.transfermarkt.com/geoffrey-kondogbia/profil/spieler/127189,2025-12-15,5.0,Ligue 1
+Marseille,2025-2026,2025,Gerónimo Rulli,,1,,,€9.00m,https://www.transfermarkt.com/geronimo-rulli/profil/spieler/229604,2025-12-15,9.0,Ligue 1
+Marseille,2025-2026,2025,Hamed Traoré,,20,,,€15.00m,https://www.transfermarkt.com/hamed-traore/profil/spieler/391065,2025-12-15,15.0,Ligue 1
+Marseille,2025-2026,2025,Igor Paixão,,14,,,€35.00m,https://www.transfermarkt.com/igor-paixao/profil/spieler/653610,2025-12-15,35.0,Ligue 1
+Marseille,2025-2026,2025,Jeffrey de Lange,,12,,,€2.00m,https://www.transfermarkt.com/jeffrey-de-lange/profil/spieler/315253,2025-12-15,2.0,Ligue 1
+Marseille,2025-2026,2025,Jelle Van Neck,,40,,,"1,91m",https://www.transfermarkt.com/jelle-van-neck/profil/spieler/727086,2025-12-15,0.0,Ligue 1
+Marseille,2025-2026,2025,Leonardo Balerdi,,5,,,€20.00m,https://www.transfermarkt.com/leonardo-balerdi/profil/spieler/575998,2025-12-15,20.0,Ligue 1
+Marseille,2025-2026,2025,Mason Greenwood,,10,,,€50.00m,https://www.transfermarkt.com/mason-greenwood/profil/spieler/532826,2025-12-15,50.0,Ligue 1
+Marseille,2025-2026,2025,Matt O'Riley,,17,,,€20.00m,https://www.transfermarkt.com/matt-oriley/profil/spieler/406634,2025-12-15,20.0,Ligue 1
+Marseille,2025-2026,2025,Nayef Aguerd,,21,,,€22.00m,https://www.transfermarkt.com/nayef-aguerd/profil/spieler/361914,2025-12-15,22.0,Ligue 1
+Marseille,2025-2026,2025,Neal Maupay,,7,,,€4.00m,https://www.transfermarkt.com/neal-maupay/profil/spieler/217115,2025-12-15,4.0,Ligue 1
+Marseille,2025-2026,2025,Pierre-Emerick Aubameyang,,97,,,€3.00m,https://www.transfermarkt.com/pierre-emerick-aubameyang/profil/spieler/58864,2025-12-15,3.0,Ligue 1
+Marseille,2025-2026,2025,Pierre-Emile Højbjerg,,23,,,€18.00m,https://www.transfermarkt.com/pierre-emile-hojbjerg/profil/spieler/167799,2025-12-15,18.0,Ligue 1
+Marseille,2025-2026,2025,Pol Lirola,,29,,,€2.00m,https://www.transfermarkt.com/pol-lirola/profil/spieler/298975,2025-12-15,2.0,Ligue 1
+Marseille,2025-2026,2025,Robinio Vaz,,34,,,€10.00m,https://www.transfermarkt.com/robinio-vaz/profil/spieler/1131161,2025-12-15,10.0,Ligue 1
+Marseille,2025-2026,2025,Rubén Blanco,,36,,,€800k,https://www.transfermarkt.com/ruben-blanco/profil/spieler/199321,2025-12-15,0.8,Ligue 1
+Marseille,2025-2026,2025,Timothy Weah,,22,,,€20.00m,https://www.transfermarkt.com/timothy-weah/profil/spieler/370846,2025-12-15,20.0,Ligue 1
+Marseille,2025-2026,2025,Ulisses Garcia,,6,,,€3.00m,https://www.transfermarkt.com/ulisses-garcia/profil/spieler/192616,2025-12-15,3.0,Ligue 1
+Monaco,2025-2026,2025,Aladji Bamba,,23,,,€3.50m,https://www.transfermarkt.com/aladji-bamba/profil/spieler/975347,2025-12-15,3.5,Ligue 1
+Monaco,2025-2026,2025,Aleksandr Golovin,,10,,,€18.00m,https://www.transfermarkt.com/aleksandr-golovin/profil/spieler/263918,2025-12-15,18.0,Ligue 1
+Monaco,2025-2026,2025,Ansu Fati,,31,,,€10.00m,https://www.transfermarkt.com/ansu-fati/profil/spieler/466810,2025-12-15,10.0,Ligue 1
+Monaco,2025-2026,2025,Caio Henrique,,12,,,€15.00m,https://www.transfermarkt.com/caio-henrique/profil/spieler/420064,2025-12-15,15.0,Ligue 1
+Monaco,2025-2026,2025,Christian Mawissa,,13,,,€15.00m,https://www.transfermarkt.com/christian-mawissa/profil/spieler/1005240,2025-12-15,15.0,Ligue 1
+Monaco,2025-2026,2025,Denis Zakaria,,6,,,€25.00m,https://www.transfermarkt.com/denis-zakaria/profil/spieler/334526,2025-12-15,25.0,Ligue 1
+Monaco,2025-2026,2025,Eric Dier,,3,,,€7.00m,https://www.transfermarkt.com/eric-dier/profil/spieler/175722,2025-12-15,7.0,Ligue 1
+Monaco,2025-2026,2025,Folarin Balogun,,9,,,€22.00m,https://www.transfermarkt.com/folarin-balogun/profil/spieler/503770,2025-12-15,22.0,Ligue 1
+Monaco,2025-2026,2025,George Ilenikhena,,19,,,€12.00m,https://www.transfermarkt.com/george-ilenikhena/profil/spieler/1004834,2025-12-15,12.0,Ligue 1
+Monaco,2025-2026,2025,Jordan Teze,,4,,,€12.00m,https://www.transfermarkt.com/jordan-teze/profil/spieler/364245,2025-12-15,12.0,Ligue 1
+Monaco,2025-2026,2025,Jules Stawiecki,,40,,,€150k,https://www.transfermarkt.com/jules-stawiecki/profil/spieler/1075582,2025-12-15,0.15,Ligue 1
+Monaco,2025-2026,2025,Kassoum Ouattara,,20,,,€9.00m,https://www.transfermarkt.com/kassoum-ouattara/profil/spieler/947360,2025-12-15,9.0,Ligue 1
+Monaco,2025-2026,2025,Krépin Diatta,,27,,,€6.00m,https://www.transfermarkt.com/krepin-diatta/profil/spieler/490426,2025-12-15,6.0,Ligue 1
+Monaco,2025-2026,2025,Lamine Camara,,15,,,€30.00m,https://www.transfermarkt.com/lamine-camara/profil/spieler/918969,2025-12-15,30.0,Ligue 1
+Monaco,2025-2026,2025,Lucas Michal,,21,,,€2.50m,https://www.transfermarkt.com/lucas-michal/profil/spieler/810909,2025-12-15,2.5,Ligue 1
+Monaco,2025-2026,2025,Lukas Hradecky,,1,,,€1.80m,https://www.transfermarkt.com/lukas-hradecky/profil/spieler/48015,2025-12-15,1.8,Ligue 1
+Monaco,2025-2026,2025,Maghnes Akliouche,,11,,,€45.00m,https://www.transfermarkt.com/maghnes-akliouche/profil/spieler/745200,2025-12-15,45.0,Ligue 1
+Monaco,2025-2026,2025,Mamadou Coulibaly,,28,,,€8.00m,https://www.transfermarkt.com/mamadou-coulibaly/profil/spieler/745173,2025-12-15,8.0,Ligue 1
+Monaco,2025-2026,2025,Mika Biereth,,14,,,€22.00m,https://www.transfermarkt.com/mika-biereth/profil/spieler/565821,2025-12-15,22.0,Ligue 1
+Monaco,2025-2026,2025,Mohammed Salisu,,22,,,€10.00m,https://www.transfermarkt.com/mohammed-salisu/profil/spieler/563963,2025-12-15,10.0,Ligue 1
+Monaco,2025-2026,2025,Paris Brunner,,29,,,€1.50m,https://www.transfermarkt.com/paris-brunner/profil/spieler/918414,2025-12-15,1.5,Ligue 1
+Monaco,2025-2026,2025,Paul Pogba,,8,,,€5.00m,https://www.transfermarkt.com/paul-pogba/profil/spieler/122153,2025-12-15,5.0,Ligue 1
+Monaco,2025-2026,2025,Philipp Köhn,,16,,,€4.00m,https://www.transfermarkt.com/philipp-kohn/profil/spieler/251322,2025-12-15,4.0,Ligue 1
+Monaco,2025-2026,2025,Stanis Idumbo,,17,,,€5.00m,https://www.transfermarkt.com/stanis-idumbo/profil/spieler/743387,2025-12-15,5.0,Ligue 1
+Monaco,2025-2026,2025,Takumi Minamino,,18,,,€12.00m,https://www.transfermarkt.com/takumi-minamino/profil/spieler/165793,2025-12-15,12.0,Ligue 1
+Monaco,2025-2026,2025,Thilo Kehrer,,5,,,€18.00m,https://www.transfermarkt.com/thilo-kehrer/profil/spieler/228948,2025-12-15,18.0,Ligue 1
+Monaco,2025-2026,2025,Vanderson,,2,,,€20.00m,https://www.transfermarkt.com/vanderson/profil/spieler/789082,2025-12-15,20.0,Ligue 1
+Monaco,2025-2026,2025,Yann Lienard,,50,,,€100k,https://www.transfermarkt.com/yann-lienard/profil/spieler/745341,2025-12-15,0.1,Ligue 1
+PSG,2025-2026,2025,Achraf Hakimi,,2,,,€80.00m,https://www.transfermarkt.com/achraf-hakimi/profil/spieler/398073,2025-12-15,80.0,Ligue 1
+PSG,2025-2026,2025,Bradley Barcola,,29,,,€70.00m,https://www.transfermarkt.com/bradley-barcola/profil/spieler/708265,2025-12-15,70.0,Ligue 1
+PSG,2025-2026,2025,Désiré Doué,,14,,,€90.00m,https://www.transfermarkt.com/desire-doue/profil/spieler/914562,2025-12-15,90.0,Ligue 1
+PSG,2025-2026,2025,Fabián Ruiz,,8,,,€40.00m,https://www.transfermarkt.com/fabian-ruiz/profil/spieler/350219,2025-12-15,40.0,Ligue 1
+PSG,2025-2026,2025,Gonçalo Ramos,,9,,,€35.00m,https://www.transfermarkt.com/goncalo-ramos/profil/spieler/550550,2025-12-15,35.0,Ligue 1
+PSG,2025-2026,2025,Ibrahim Mbaye,,49,,,€25.00m,https://www.transfermarkt.com/ibrahim-mbaye/profil/spieler/1185888,2025-12-15,25.0,Ligue 1
+PSG,2025-2026,2025,Ilya Zabarnyi,,6,,,€50.00m,https://www.transfermarkt.com/ilya-zabarnyi/profil/spieler/659089,2025-12-15,50.0,Ligue 1
+PSG,2025-2026,2025,João Neves,,87,,,€110.00m,https://www.transfermarkt.com/joao-neves/profil/spieler/670681,2025-12-15,110.0,Ligue 1
+PSG,2025-2026,2025,Kang-in Lee,,19,,,€25.00m,https://www.transfermarkt.com/kang-in-lee/profil/spieler/557149,2025-12-15,25.0,Ligue 1
+PSG,2025-2026,2025,Khvicha Kvaratskhelia,,7,,,€90.00m,https://www.transfermarkt.com/khvicha-kvaratskhelia/profil/spieler/502670,2025-12-15,90.0,Ligue 1
+PSG,2025-2026,2025,Lucas Beraldo,,4,,,€20.00m,https://www.transfermarkt.com/lucas-beraldo/profil/spieler/872171,2025-12-15,20.0,Ligue 1
+PSG,2025-2026,2025,Lucas Chevalier,,30,,,€35.00m,https://www.transfermarkt.com/lucas-chevalier/profil/spieler/463600,2025-12-15,35.0,Ligue 1
+PSG,2025-2026,2025,Lucas Hernández,,21,,,€20.00m,https://www.transfermarkt.com/lucas-hernandez/profil/spieler/281963,2025-12-15,20.0,Ligue 1
+PSG,2025-2026,2025,Marquinhos,,5,,,€30.00m,https://www.transfermarkt.com/marquinhos/profil/spieler/181767,2025-12-15,30.0,Ligue 1
+PSG,2025-2026,2025,Matvey Safonov,,39,,,€15.00m,https://www.transfermarkt.com/matvey-safonov/profil/spieler/318470,2025-12-15,15.0,Ligue 1
+PSG,2025-2026,2025,Noham Kamara,,43,,,€1.00m,https://www.transfermarkt.com/noham-kamara/profil/spieler/1275040,2025-12-15,1.0,Ligue 1
+PSG,2025-2026,2025,Nuno Mendes,,25,,,€75.00m,https://www.transfermarkt.com/nuno-mendes/profil/spieler/616341,2025-12-15,75.0,Ligue 1
+PSG,2025-2026,2025,Ousmane Dembélé,,10,,,€100.00m,https://www.transfermarkt.com/ousmane-dembele/profil/spieler/288230,2025-12-15,100.0,Ligue 1
+PSG,2025-2026,2025,Quentin Ndjantou,,47,,,€7.00m,https://www.transfermarkt.com/quentin-ndjantou/profil/spieler/1053208,2025-12-15,7.0,Ligue 1
+PSG,2025-2026,2025,Renato Marin,,89,,,€500k,https://www.transfermarkt.com/renato-marin/profil/spieler/1041614,2025-12-15,0.5,Ligue 1
+PSG,2025-2026,2025,Senny Mayulu,,24,,,€40.00m,https://www.transfermarkt.com/senny-mayulu/profil/spieler/903693,2025-12-15,40.0,Ligue 1
+PSG,2025-2026,2025,Vitinha,,17,,,€110.00m,https://www.transfermarkt.com/vitinha/profil/spieler/487469,2025-12-15,110.0,Ligue 1
+PSG,2025-2026,2025,Warren Zaïre-Emery,,33,,,€50.00m,https://www.transfermarkt.com/warren-zaire-emery/profil/spieler/810092,2025-12-15,50.0,Ligue 1
+PSG,2025-2026,2025,Willian Pacho,,51,,,€70.00m,https://www.transfermarkt.com/willian-pacho/profil/spieler/661171,2025-12-15,70.0,Ligue 1
+Arsenal,2023-2024,2023,Aaron Ramsdale,,1,,,€25.00m,https://www.transfermarkt.com/aaron-ramsdale/profil/spieler/427568,2025-12-15,25.0,Premier League
+Arsenal,2023-2024,2023,Albert Sambi Lokonga,,-,,,€15.00m,https://www.transfermarkt.com/albert-sambi-lokonga/profil/spieler/381967,2025-12-15,15.0,Premier League
+Arsenal,2023-2024,2023,Amario Cozier-Duberry,,-,,,€2.00m,https://www.transfermarkt.com/amario-cozier-duberry/profil/spieler/878150,2025-12-15,2.0,Premier League
+Arsenal,2023-2024,2023,Arthur Okonkwo,,-,,,€1.80m,https://www.transfermarkt.com/arthur-okonkwo/profil/spieler/503769,2025-12-15,1.8,Premier League
+Arsenal,2023-2024,2023,Ayden Heaven,,-,,,€300k,https://www.transfermarkt.com/ayden-heaven/profil/spieler/1078163,2025-12-15,0.3,Premier League
+Arsenal,2023-2024,2023,Ben White,,4,,,€55.00m,https://www.transfermarkt.com/ben-white/profil/spieler/335721,2025-12-15,55.0,Premier League
+Arsenal,2023-2024,2023,Bradley Ibrahim,,-,,,€400k,https://www.transfermarkt.com/bradley-ibrahim/profil/spieler/871837,2025-12-15,0.4,Premier League
+Arsenal,2023-2024,2023,Bukayo Saka,,7,,,€140.00m,https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177,2025-12-15,140.0,Premier League
+Arsenal,2023-2024,2023,Charles Sagoe Jr,,-,,,€600k,https://www.transfermarkt.com/charles-sagoe-jr/profil/spieler/796037,2025-12-15,0.6,Premier League
+Arsenal,2023-2024,2023,Cédric Soares,,17,,,€2.00m,https://www.transfermarkt.com/cedric-soares/profil/spieler/112988,2025-12-15,2.0,Premier League
+Arsenal,2023-2024,2023,David Raya,,22,,,€35.00m,https://www.transfermarkt.com/david-raya/profil/spieler/262749,2025-12-15,35.0,Premier League
+Arsenal,2023-2024,2023,Declan Rice,,41,,,€120.00m,https://www.transfermarkt.com/declan-rice/profil/spieler/357662,2025-12-15,120.0,Premier League
+Arsenal,2023-2024,2023,Eddie Nketiah,,14,,,€30.00m,https://www.transfermarkt.com/eddie-nketiah/profil/spieler/340324,2025-12-15,30.0,Premier League
+Arsenal,2023-2024,2023,Emile Smith Rowe,,10,,,€22.00m,https://www.transfermarkt.com/emile-smith-rowe/profil/spieler/392765,2025-12-15,22.0,Premier League
+Arsenal,2023-2024,2023,Ethan Nwaneri,,-,,,€8.00m,https://www.transfermarkt.com/ethan-nwaneri/profil/spieler/890719,2025-12-15,8.0,Premier League
+Arsenal,2023-2024,2023,Fábio Vieira,,21,,,€22.00m,https://www.transfermarkt.com/fabio-vieira/profil/spieler/537598,2025-12-15,22.0,Premier League
+Arsenal,2023-2024,2023,Gabriel Jesus,,9,,,€65.00m,https://www.transfermarkt.com/gabriel-jesus/profil/spieler/363205,2025-12-15,65.0,Premier League
+Arsenal,2023-2024,2023,Gabriel Magalhães,,6,,,€70.00m,https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/435338,2025-12-15,70.0,Premier League
+Arsenal,2023-2024,2023,Gabriel Martinelli,,11,,,€70.00m,https://www.transfermarkt.com/gabriel-martinelli/profil/spieler/655488,2025-12-15,70.0,Premier League
+Arsenal,2023-2024,2023,Jakub Kiwior,,15,,,€30.00m,https://www.transfermarkt.com/jakub-kiwior/profil/spieler/425918,2025-12-15,30.0,Premier League
+Arsenal,2023-2024,2023,James Sweet,,-,,,€250k,https://www.transfermarkt.com/james-sweet/profil/spieler/583952,2025-12-15,0.25,Premier League
+Arsenal,2023-2024,2023,Jorginho,,20,,,€12.00m,https://www.transfermarkt.com/jorginho/profil/spieler/102017,2025-12-15,12.0,Premier League
+Arsenal,2023-2024,2023,Jurriën Timber,,12,,,€38.00m,https://www.transfermarkt.com/jurrien-timber/profil/spieler/420243,2025-12-15,38.0,Premier League
+Arsenal,2023-2024,2023,Kai Havertz,,29,,,€70.00m,https://www.transfermarkt.com/kai-havertz/profil/spieler/309400,2025-12-15,70.0,Premier League
+Arsenal,2023-2024,2023,Karl Hein,,31,,,€2.00m,https://www.transfermarkt.com/karl-hein/profil/spieler/493513,2025-12-15,2.0,Premier League
+Arsenal,2023-2024,2023,Kieran Tierney,,-,,,€12.00m,https://www.transfermarkt.com/kieran-tierney/profil/spieler/300716,2025-12-15,12.0,Premier League
+Arsenal,2023-2024,2023,Leandro Trossard,,19,,,€35.00m,https://www.transfermarkt.com/leandro-trossard/profil/spieler/144028,2025-12-15,35.0,Premier League
+Arsenal,2023-2024,2023,Lino Sousa,,-,,,€2.00m,https://www.transfermarkt.com/lino-sousa/profil/spieler/743414,2025-12-15,2.0,Premier League
+Arsenal,2023-2024,2023,Martin Ødegaard,,8,,,€110.00m,https://www.transfermarkt.com/martin-odegaard/profil/spieler/316264,2025-12-15,110.0,Premier League
+Arsenal,2023-2024,2023,Matt Turner,,-,,,€7.00m,https://www.transfermarkt.com/matt-turner/profil/spieler/425306,2025-12-15,7.0,Premier League
+Arsenal,2023-2024,2023,Mauro Bandeira,,-,,,€200k,https://www.transfermarkt.com/mauro-bandeira/profil/spieler/745846,2025-12-15,0.2,Premier League
+Arsenal,2023-2024,2023,Mohamed Elneny,,25,,,€3.50m,https://www.transfermarkt.com/mohamed-elneny/profil/spieler/160438,2025-12-15,3.5,Premier League
+Arsenal,2023-2024,2023,Myles Lewis-Skelly,,-,,,€2.00m,https://www.transfermarkt.com/myles-lewis-skelly/profil/spieler/890721,2025-12-15,2.0,Premier League
+Arsenal,2023-2024,2023,Oleksandr Zinchenko,,35,,,€38.00m,https://www.transfermarkt.com/oleksandr-zinchenko/profil/spieler/203853,2025-12-15,38.0,Premier League
+Arsenal,2023-2024,2023,Reiss Nelson,,24,,,€15.00m,https://www.transfermarkt.com/reiss-nelson/profil/spieler/340325,2025-12-15,15.0,Premier League
+Arsenal,2023-2024,2023,Reuell Walters,,-,,,€4.00m,https://www.transfermarkt.com/reuell-walters/profil/spieler/878160,2025-12-15,4.0,Premier League
+Arsenal,2023-2024,2023,Rob Holding,,-,,,€5.00m,https://www.transfermarkt.com/rob-holding/profil/spieler/253341,2025-12-15,5.0,Premier League
+Arsenal,2023-2024,2023,Takehiro Tomiyasu,,18,,,€35.00m,https://www.transfermarkt.com/takehiro-tomiyasu/profil/spieler/331560,2025-12-15,35.0,Premier League
+Arsenal,2023-2024,2023,Thomas Partey,,5,,,€18.00m,https://www.transfermarkt.com/thomas-partey/profil/spieler/230784,2025-12-15,18.0,Premier League
+Arsenal,2023-2024,2023,William Saliba,,2,,,€80.00m,https://www.transfermarkt.com/william-saliba/profil/spieler/495666,2025-12-15,80.0,Premier League
+Arsenal,2025-2026,2025,Ben White,,4,,,€30.00m,https://www.transfermarkt.com/ben-white/profil/spieler/335721,2025-12-15,30.0,Premier League
+Arsenal,2025-2026,2025,Bukayo Saka,,7,,,€130.00m,https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177,2025-12-15,130.0,Premier League
+Arsenal,2025-2026,2025,Christian Nørgaard,,16,,,€9.00m,https://www.transfermarkt.com/christian-norgaard/profil/spieler/148367,2025-12-15,9.0,Premier League
+Arsenal,2025-2026,2025,Cristhian Mosquera,,3,,,€35.00m,https://www.transfermarkt.com/cristhian-mosquera/profil/spieler/646750,2025-12-15,35.0,Premier League
+Arsenal,2025-2026,2025,David Raya,,1,,,€35.00m,https://www.transfermarkt.com/david-raya/profil/spieler/262749,2025-12-15,35.0,Premier League
+Arsenal,2025-2026,2025,Declan Rice,,41,,,€120.00m,https://www.transfermarkt.com/declan-rice/profil/spieler/357662,2025-12-15,120.0,Premier League
+Arsenal,2025-2026,2025,Eberechi Eze,,10,,,€65.00m,https://www.transfermarkt.com/eberechi-eze/profil/spieler/479999,2025-12-15,65.0,Premier League
+Arsenal,2025-2026,2025,Ethan Nwaneri,,22,,,€40.00m,https://www.transfermarkt.com/ethan-nwaneri/profil/spieler/890719,2025-12-15,40.0,Premier League
+Arsenal,2025-2026,2025,Gabriel Jesus,,9,,,€20.00m,https://www.transfermarkt.com/gabriel-jesus/profil/spieler/363205,2025-12-15,20.0,Premier League
+Arsenal,2025-2026,2025,Gabriel Magalhães,,6,,,€75.00m,https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/435338,2025-12-15,75.0,Premier League
+Arsenal,2025-2026,2025,Gabriel Martinelli,,11,,,€45.00m,https://www.transfermarkt.com/gabriel-martinelli/profil/spieler/655488,2025-12-15,45.0,Premier League
+Arsenal,2025-2026,2025,Jurriën Timber,,12,,,€70.00m,https://www.transfermarkt.com/jurrien-timber/profil/spieler/420243,2025-12-15,70.0,Premier League
+Arsenal,2025-2026,2025,Kai Havertz,,29,,,€55.00m,https://www.transfermarkt.com/kai-havertz/profil/spieler/309400,2025-12-15,55.0,Premier League
+Arsenal,2025-2026,2025,Kepa Arrizabalaga,,13,,,€7.00m,https://www.transfermarkt.com/kepa-arrizabalaga/profil/spieler/192279,2025-12-15,7.0,Premier League
+Arsenal,2025-2026,2025,Leandro Trossard,,19,,,€20.00m,https://www.transfermarkt.com/leandro-trossard/profil/spieler/144028,2025-12-15,20.0,Premier League
+Arsenal,2025-2026,2025,Martin Ødegaard,,8,,,€75.00m,https://www.transfermarkt.com/martin-odegaard/profil/spieler/316264,2025-12-15,75.0,Premier League
+Arsenal,2025-2026,2025,Martín Zubimendi,,36,,,€75.00m,https://www.transfermarkt.com/martin-zubimendi/profil/spieler/423440,2025-12-15,75.0,Premier League
+Arsenal,2025-2026,2025,Max Dowman,,56,,,"1,83m",https://www.transfermarkt.com/max-dowman/profil/spieler/1187629,2025-12-15,0.0,Premier League
+Arsenal,2025-2026,2025,Mikel Merino,,23,,,€30.00m,https://www.transfermarkt.com/mikel-merino/profil/spieler/338424,2025-12-15,30.0,Premier League
+Arsenal,2025-2026,2025,Myles Lewis-Skelly,,49,,,€40.00m,https://www.transfermarkt.com/myles-lewis-skelly/profil/spieler/890721,2025-12-15,40.0,Premier League
+Arsenal,2025-2026,2025,Noni Madueke,,20,,,€50.00m,https://www.transfermarkt.com/noni-madueke/profil/spieler/503987,2025-12-15,50.0,Premier League
+Arsenal,2025-2026,2025,Piero Hincapié,,5,,,€50.00m,https://www.transfermarkt.com/piero-hincapie/profil/spieler/659813,2025-12-15,50.0,Premier League
+Arsenal,2025-2026,2025,Riccardo Calafiori,,33,,,€50.00m,https://www.transfermarkt.com/riccardo-calafiori/profil/spieler/502821,2025-12-15,50.0,Premier League
+Arsenal,2025-2026,2025,Viktor Gyökeres,,14,,,€70.00m,https://www.transfermarkt.com/viktor-gyokeres/profil/spieler/325443,2025-12-15,70.0,Premier League
+Arsenal,2025-2026,2025,William Saliba,,2,,,€90.00m,https://www.transfermarkt.com/william-saliba/profil/spieler/495666,2025-12-15,90.0,Premier League
+Liverpool,2023-2024,2023,Adrián,,13,,,€600k,https://www.transfermarkt.com/adrian/profil/spieler/71271,2025-12-15,0.6,Premier League
+Liverpool,2023-2024,2023,Alexis Mac Allister,,10,,,€75.00m,https://www.transfermarkt.com/alexis-mac-allister/profil/spieler/534033,2025-12-15,75.0,Premier League
+Liverpool,2023-2024,2023,Alisson,,1,,,€28.00m,https://www.transfermarkt.com/alisson/profil/spieler/105470,2025-12-15,28.0,Premier League
+Liverpool,2023-2024,2023,Amara Nallo,,-,,,"1,86m",https://www.transfermarkt.com/amara-nallo/profil/spieler/1108049,2025-12-15,0.0,Premier League
+Liverpool,2023-2024,2023,Andrew Robertson,,26,,,€30.00m,https://www.transfermarkt.com/andrew-robertson/profil/spieler/234803,2025-12-15,30.0,Premier League
+Liverpool,2023-2024,2023,Ben Gannon-Doak,,50,,,€10.00m,https://www.transfermarkt.com/ben-gannon-doak/profil/spieler/719673,2025-12-15,10.0,Premier League
+Liverpool,2023-2024,2023,Bobby Clark,,42,,,€1.00m,https://www.transfermarkt.com/bobby-clark/profil/spieler/712117,2025-12-15,1.0,Premier League
+Liverpool,2023-2024,2023,Calum Scanlon,,-,,,€700k,https://www.transfermarkt.com/calum-scanlon/profil/spieler/796298,2025-12-15,0.7,Premier League
+Liverpool,2023-2024,2023,Calvin Ramsay,,-,,,€4.00m,https://www.transfermarkt.com/calvin-ramsay/profil/spieler/633652,2025-12-15,4.0,Premier League
+Liverpool,2023-2024,2023,Caoimhín Kelleher,,62,,,€20.00m,https://www.transfermarkt.com/caoimhin-kelleher/profil/spieler/340918,2025-12-15,20.0,Premier League
+Liverpool,2023-2024,2023,Cody Gakpo,,18,,,€50.00m,https://www.transfermarkt.com/cody-gakpo/profil/spieler/434675,2025-12-15,50.0,Premier League
+Liverpool,2023-2024,2023,Conor Bradley,,84,,,€15.00m,https://www.transfermarkt.com/conor-bradley/profil/spieler/624258,2025-12-15,15.0,Premier League
+Liverpool,2023-2024,2023,Curtis Jones,,17,,,€35.00m,https://www.transfermarkt.com/curtis-jones/profil/spieler/433188,2025-12-15,35.0,Premier League
+Liverpool,2023-2024,2023,Darwin Núñez,,9,,,€70.00m,https://www.transfermarkt.com/darwin-nunez/profil/spieler/546543,2025-12-15,70.0,Premier League
+Liverpool,2023-2024,2023,Diogo Jota,,20,,,€50.00m,https://www.transfermarkt.com/diogo-jota/profil/spieler/340950,2025-12-15,50.0,Premier League
+Liverpool,2023-2024,2023,Dominik Szoboszlai,,8,,,€75.00m,https://www.transfermarkt.com/dominik-szoboszlai/profil/spieler/451276,2025-12-15,75.0,Premier League
+Liverpool,2023-2024,2023,Fabian Mrozek,,-,,,€200k,https://www.transfermarkt.com/fabian-mrozek/profil/spieler/678402,2025-12-15,0.2,Premier League
+Liverpool,2023-2024,2023,Fábio Carvalho,,-,,,€14.00m,https://www.transfermarkt.com/fabio-carvalho/profil/spieler/559263,2025-12-15,14.0,Premier League
+Liverpool,2023-2024,2023,Harvey Elliott,,19,,,€35.00m,https://www.transfermarkt.com/harvey-elliott/profil/spieler/565822,2025-12-15,35.0,Premier League
+Liverpool,2023-2024,2023,Ibrahima Konaté,,5,,,€45.00m,https://www.transfermarkt.com/ibrahima-konate/profil/spieler/357119,2025-12-15,45.0,Premier League
+Liverpool,2023-2024,2023,James McConnell,,-,,,€500k,https://www.transfermarkt.com/james-mcconnell/profil/spieler/845289,2025-12-15,0.5,Premier League
+Liverpool,2023-2024,2023,Jarell Quansah,,78,,,€22.00m,https://www.transfermarkt.com/jarell-quansah/profil/spieler/632349,2025-12-15,22.0,Premier League
+Liverpool,2023-2024,2023,Jayden Danns,,-,,,€1.00m,https://www.transfermarkt.com/jayden-danns/profil/spieler/939290,2025-12-15,1.0,Premier League
+Liverpool,2023-2024,2023,Joe Gomez,,2,,,€28.00m,https://www.transfermarkt.com/joe-gomez/profil/spieler/256178,2025-12-15,28.0,Premier League
+Liverpool,2023-2024,2023,Joël Matip,,32,,,€8.00m,https://www.transfermarkt.com/joel-matip/profil/spieler/82105,2025-12-15,8.0,Premier League
+Liverpool,2023-2024,2023,Kaide Gordon,,-,,,€1.20m,https://www.transfermarkt.com/kaide-gordon/profil/spieler/732119,2025-12-15,1.2,Premier League
+Liverpool,2023-2024,2023,Konstantinos Tsimikas,,21,,,€22.00m,https://www.transfermarkt.com/konstantinos-tsimikas/profil/spieler/338070,2025-12-15,22.0,Premier League
+Liverpool,2023-2024,2023,Lewis Koumas,,-,,,€1.00m,https://www.transfermarkt.com/lewis-koumas/profil/spieler/922462,2025-12-15,1.0,Premier League
+Liverpool,2023-2024,2023,Luis Díaz,,7,,,€75.00m,https://www.transfermarkt.com/luis-diaz/profil/spieler/480692,2025-12-15,75.0,Premier League
+Liverpool,2023-2024,2023,Luke Chambers,,-,,,€1.50m,https://www.transfermarkt.com/luke-chambers/profil/spieler/670861,2025-12-15,1.5,Premier League
+Liverpool,2023-2024,2023,Marcelo Pitaluga,,-,,,€300k,https://www.transfermarkt.com/marcelo-pitaluga/profil/spieler/662334,2025-12-15,0.3,Premier League
+Liverpool,2023-2024,2023,Mateusz Musialowski,,-,,,€300k,https://www.transfermarkt.com/mateusz-musialowski/profil/spieler/570469,2025-12-15,0.3,Premier League
+Liverpool,2023-2024,2023,Mohamed Salah,,11,,,€55.00m,https://www.transfermarkt.com/mohamed-salah/profil/spieler/148455,2025-12-15,55.0,Premier League
+Liverpool,2023-2024,2023,Nat Phillips,,-,,,€3.50m,https://www.transfermarkt.com/nat-phillips/profil/spieler/371814,2025-12-15,3.5,Premier League
+Liverpool,2023-2024,2023,Owen Beck,,-,,,€1.25m,https://www.transfermarkt.com/owen-beck/profil/spieler/551001,2025-12-15,1.25,Premier League
+Liverpool,2023-2024,2023,Rhys Williams,,46,,,€1.80m,https://www.transfermarkt.com/rhys-williams/profil/spieler/503679,2025-12-15,1.8,Premier League
+Liverpool,2023-2024,2023,Ryan Gravenberch,,38,,,€35.00m,https://www.transfermarkt.com/ryan-gravenberch/profil/spieler/478573,2025-12-15,35.0,Premier League
+Liverpool,2023-2024,2023,Stefan Bajcetic,,43,,,€11.00m,https://www.transfermarkt.com/stefan-bajcetic/profil/spieler/864799,2025-12-15,11.0,Premier League
+Liverpool,2023-2024,2023,Thiago Alcántara,,6,,,€10.00m,https://www.transfermarkt.com/thiago-alcantara/profil/spieler/60444,2025-12-15,10.0,Premier League
+Liverpool,2023-2024,2023,Tom Hill,,-,,,€300k,https://www.transfermarkt.com/tom-hill/profil/spieler/655990,2025-12-15,0.3,Premier League
+Liverpool,2023-2024,2023,Trent Alexander-Arnold,,66,,,€70.00m,https://www.transfermarkt.com/trent-alexander-arnold/profil/spieler/314353,2025-12-15,70.0,Premier League
+Liverpool,2023-2024,2023,Trey Nyoni,,-,,,€500k,https://www.transfermarkt.com/trey-nyoni/profil/spieler/1045123,2025-12-15,0.5,Premier League
+Liverpool,2023-2024,2023,Virgil van Dijk,,4,,,€30.00m,https://www.transfermarkt.com/virgil-van-dijk/profil/spieler/139208,2025-12-15,30.0,Premier League
+Liverpool,2023-2024,2023,Vitezslav Jaros,,-,,,€5.00m,https://www.transfermarkt.com/vitezslav-jaros/profil/spieler/486604,2025-12-15,5.0,Premier League
+Liverpool,2023-2024,2023,Wataru Endo,,3,,,€13.00m,https://www.transfermarkt.com/wataru-endo/profil/spieler/146310,2025-12-15,13.0,Premier League
+Liverpool,2025-2026,2025,Alexander Isak,,9,,,€120.00m,https://www.transfermarkt.com/alexander-isak/profil/spieler/349066,2025-12-15,120.0,Premier League
+Liverpool,2025-2026,2025,Alexis Mac Allister,,10,,,€85.00m,https://www.transfermarkt.com/alexis-mac-allister/profil/spieler/534033,2025-12-15,85.0,Premier League
+Liverpool,2025-2026,2025,Alisson,,1,,,€17.00m,https://www.transfermarkt.com/alisson/profil/spieler/105470,2025-12-15,17.0,Premier League
+Liverpool,2025-2026,2025,Andrew Robertson,,26,,,€12.00m,https://www.transfermarkt.com/andrew-robertson/profil/spieler/234803,2025-12-15,12.0,Premier League
+Liverpool,2025-2026,2025,Cody Gakpo,,18,,,€70.00m,https://www.transfermarkt.com/cody-gakpo/profil/spieler/434675,2025-12-15,70.0,Premier League
+Liverpool,2025-2026,2025,Conor Bradley,,12,,,€30.00m,https://www.transfermarkt.com/conor-bradley/profil/spieler/624258,2025-12-15,30.0,Premier League
+Liverpool,2025-2026,2025,Curtis Jones,,17,,,€40.00m,https://www.transfermarkt.com/curtis-jones/profil/spieler/433188,2025-12-15,40.0,Premier League
+Liverpool,2025-2026,2025,Dominik Szoboszlai,,8,,,€85.00m,https://www.transfermarkt.com/dominik-szoboszlai/profil/spieler/451276,2025-12-15,85.0,Premier League
+Liverpool,2025-2026,2025,Federico Chiesa,,14,,,€18.00m,https://www.transfermarkt.com/federico-chiesa/profil/spieler/341092,2025-12-15,18.0,Premier League
+Liverpool,2025-2026,2025,Florian Wirtz,,7,,,€110.00m,https://www.transfermarkt.com/florian-wirtz/profil/spieler/598577,2025-12-15,110.0,Premier League
+Liverpool,2025-2026,2025,Freddie Woodman,,28,,,€3.00m,https://www.transfermarkt.com/freddie-woodman/profil/spieler/226049,2025-12-15,3.0,Premier League
+Liverpool,2025-2026,2025,Giorgi Mamardashvili,,25,,,€28.00m,https://www.transfermarkt.com/giorgi-mamardashvili/profil/spieler/502676,2025-12-15,28.0,Premier League
+Liverpool,2025-2026,2025,Giovanni Leoni,,15,,,€25.00m,https://www.transfermarkt.com/giovanni-leoni/profil/spieler/1086619,2025-12-15,25.0,Premier League
+Liverpool,2025-2026,2025,Hugo Ekitiké,,22,,,€85.00m,https://www.transfermarkt.com/hugo-ekitike/profil/spieler/709726,2025-12-15,85.0,Premier League
+Liverpool,2025-2026,2025,Ibrahima Konaté,,5,,,€50.00m,https://www.transfermarkt.com/ibrahima-konate/profil/spieler/357119,2025-12-15,50.0,Premier League
+Liverpool,2025-2026,2025,Jeremie Frimpong,,30,,,€38.00m,https://www.transfermarkt.com/jeremie-frimpong/profil/spieler/484547,2025-12-15,38.0,Premier League
+Liverpool,2025-2026,2025,Joe Gomez,,2,,,€15.00m,https://www.transfermarkt.com/joe-gomez/profil/spieler/256178,2025-12-15,15.0,Premier League
+Liverpool,2025-2026,2025,Milos Kerkez,,6,,,€40.00m,https://www.transfermarkt.com/milos-kerkez/profil/spieler/730861,2025-12-15,40.0,Premier League
+Liverpool,2025-2026,2025,Mohamed Salah,,11,,,€30.00m,https://www.transfermarkt.com/mohamed-salah/profil/spieler/148455,2025-12-15,30.0,Premier League
+Liverpool,2025-2026,2025,Rhys Williams,,46,,,€500k,https://www.transfermarkt.com/rhys-williams/profil/spieler/503679,2025-12-15,0.5,Premier League
+Liverpool,2025-2026,2025,Rio Ngumoha,,73,,,€15.00m,https://www.transfermarkt.com/rio-ngumoha/profil/spieler/1108466,2025-12-15,15.0,Premier League
+Liverpool,2025-2026,2025,Ryan Gravenberch,,38,,,€90.00m,https://www.transfermarkt.com/ryan-gravenberch/profil/spieler/478573,2025-12-15,90.0,Premier League
+Liverpool,2025-2026,2025,Stefan Bajcetic,,43,,,€7.00m,https://www.transfermarkt.com/stefan-bajcetic/profil/spieler/864799,2025-12-15,7.0,Premier League
+Liverpool,2025-2026,2025,Trey Nyoni,,42,,,€6.00m,https://www.transfermarkt.com/trey-nyoni/profil/spieler/1045123,2025-12-15,6.0,Premier League
+Liverpool,2025-2026,2025,Virgil van Dijk,,4,,,€18.00m,https://www.transfermarkt.com/virgil-van-dijk/profil/spieler/139208,2025-12-15,18.0,Premier League
+Liverpool,2025-2026,2025,Wataru Endo,,3,,,€5.00m,https://www.transfermarkt.com/wataru-endo/profil/spieler/146310,2025-12-15,5.0,Premier League
+Manchester City,2023-2024,2023,Aymeric Laporte,,-,,,€20.00m,https://www.transfermarkt.com/aymeric-laporte/profil/spieler/176553,2025-12-15,20.0,Premier League
+Manchester City,2023-2024,2023,Bernardo Silva,,20,,,€70.00m,https://www.transfermarkt.com/bernardo-silva/profil/spieler/241641,2025-12-15,70.0,Premier League
+Manchester City,2023-2024,2023,Cole Palmer,,-,,,€80.00m,https://www.transfermarkt.com/cole-palmer/profil/spieler/568177,2025-12-15,80.0,Premier League
+Manchester City,2023-2024,2023,Ederson,,31,,,€35.00m,https://www.transfermarkt.com/ederson/profil/spieler/238223,2025-12-15,35.0,Premier League
+Manchester City,2023-2024,2023,Erling Haaland,,9,,,€180.00m,https://www.transfermarkt.com/erling-haaland/profil/spieler/418560,2025-12-15,180.0,Premier League
+Manchester City,2023-2024,2023,Issa Kaboré,,-,,,€10.00m,https://www.transfermarkt.com/issa-kabore/profil/spieler/649452,2025-12-15,10.0,Premier League
+Manchester City,2023-2024,2023,Jack Grealish,,10,,,€60.00m,https://www.transfermarkt.com/jack-grealish/profil/spieler/203460,2025-12-15,60.0,Premier League
+Manchester City,2023-2024,2023,Jacob Wright,,-,,,€800k,https://www.transfermarkt.com/jacob-wright/profil/spieler/983702,2025-12-15,0.8,Premier League
+Manchester City,2023-2024,2023,James McAtee,,-,,,€12.00m,https://www.transfermarkt.com/james-mcatee/profil/spieler/583199,2025-12-15,12.0,Premier League
+Manchester City,2023-2024,2023,John Stones,,5,,,€38.00m,https://www.transfermarkt.com/john-stones/profil/spieler/186590,2025-12-15,38.0,Premier League
+Manchester City,2023-2024,2023,Josh Wilson-Esbrand,,97,,,€4.00m,https://www.transfermarkt.com/josh-wilson-esbrand/profil/spieler/576121,2025-12-15,4.0,Premier League
+Manchester City,2023-2024,2023,Josko Gvardiol,,24,,,€75.00m,https://www.transfermarkt.com/josko-gvardiol/profil/spieler/475959,2025-12-15,75.0,Premier League
+Manchester City,2023-2024,2023,Julián Alvarez,,19,,,€90.00m,https://www.transfermarkt.com/julian-alvarez/profil/spieler/576024,2025-12-15,90.0,Premier League
+Manchester City,2023-2024,2023,Jérémy Doku,,11,,,€65.00m,https://www.transfermarkt.com/jeremy-doku/profil/spieler/486049,2025-12-15,65.0,Premier League
+Manchester City,2023-2024,2023,Kalvin Phillips,,4,,,€25.00m,https://www.transfermarkt.com/kalvin-phillips/profil/spieler/351749,2025-12-15,25.0,Premier League
+Manchester City,2023-2024,2023,Kevin De Bruyne,,17,,,€50.00m,https://www.transfermarkt.com/kevin-de-bruyne/profil/spieler/88755,2025-12-15,50.0,Premier League
+Manchester City,2023-2024,2023,Kyle Walker,,2,,,€13.00m,https://www.transfermarkt.com/kyle-walker/profil/spieler/95424,2025-12-15,13.0,Premier League
+Manchester City,2023-2024,2023,Mahamadou Susoho,,-,,,€1.50m,https://www.transfermarkt.com/mahamadou-susoho/profil/spieler/895074,2025-12-15,1.5,Premier League
+Manchester City,2023-2024,2023,Manuel Akanji,,25,,,€45.00m,https://www.transfermarkt.com/manuel-akanji/profil/spieler/284730,2025-12-15,45.0,Premier League
+Manchester City,2023-2024,2023,Mateo Kovacic,,8,,,€30.00m,https://www.transfermarkt.com/mateo-kovacic/profil/spieler/51471,2025-12-15,30.0,Premier League
+Manchester City,2023-2024,2023,Matheus Nunes,,27,,,€50.00m,https://www.transfermarkt.com/matheus-nunes/profil/spieler/601883,2025-12-15,50.0,Premier League
+Manchester City,2023-2024,2023,Max Alleyne,,-,,,€500k,https://www.transfermarkt.com/max-alleyne/profil/spieler/843595,2025-12-15,0.5,Premier League
+Manchester City,2023-2024,2023,Micah Hamilton,,-,,,€2.00m,https://www.transfermarkt.com/micah-hamilton/profil/spieler/652797,2025-12-15,2.0,Premier League
+Manchester City,2023-2024,2023,Máximo Perrone,,-,,,€9.00m,https://www.transfermarkt.com/maximo-perrone/profil/spieler/668547,2025-12-15,9.0,Premier League
+Manchester City,2023-2024,2023,Nathan Aké,,6,,,€40.00m,https://www.transfermarkt.com/nathan-ake/profil/spieler/177476,2025-12-15,40.0,Premier League
+Manchester City,2023-2024,2023,Oscar Bobb,,52,,,€25.00m,https://www.transfermarkt.com/oscar-bobb/profil/spieler/661207,2025-12-15,25.0,Premier League
+Manchester City,2023-2024,2023,Phil Foden,,47,,,€150.00m,https://www.transfermarkt.com/phil-foden/profil/spieler/406635,2025-12-15,150.0,Premier League
+Manchester City,2023-2024,2023,Rico Lewis,,82,,,€38.00m,https://www.transfermarkt.com/rico-lewis/profil/spieler/701057,2025-12-15,38.0,Premier League
+Manchester City,2023-2024,2023,Rodri,,16,,,€120.00m,https://www.transfermarkt.com/rodri/profil/spieler/357565,2025-12-15,120.0,Premier League
+Manchester City,2023-2024,2023,Rúben Dias,,3,,,€80.00m,https://www.transfermarkt.com/ruben-dias/profil/spieler/258004,2025-12-15,80.0,Premier League
+Manchester City,2023-2024,2023,Scott Carson,,33,,,€200k,https://www.transfermarkt.com/scott-carson/profil/spieler/14555,2025-12-15,0.2,Premier League
+Manchester City,2023-2024,2023,Sergio Gómez,,21,,,€10.00m,https://www.transfermarkt.com/sergio-gomez/profil/spieler/366930,2025-12-15,10.0,Premier League
+Manchester City,2023-2024,2023,Stefan Ortega,,18,,,€9.00m,https://www.transfermarkt.com/stefan-ortega/profil/spieler/85941,2025-12-15,9.0,Premier League
+Manchester City,2023-2024,2023,Taylor Harwood-Bellis,,-,,,€22.00m,https://www.transfermarkt.com/taylor-harwood-bellis/profil/spieler/503977,2025-12-15,22.0,Premier League
+Manchester City,2023-2024,2023,True Grant,,-,,,€500k,https://www.transfermarkt.com/true-grant/profil/spieler/919438,2025-12-15,0.5,Premier League
+Manchester City,2023-2024,2023,Zack Steffen,,13,,,€2.00m,https://www.transfermarkt.com/zack-steffen/profil/spieler/221624,2025-12-15,2.0,Premier League
+Manchester City,2025-2026,2025,Abdukodir Khusanov,,45,,,€35.00m,https://www.transfermarkt.com/abdukodir-khusanov/profil/spieler/763079,2025-12-15,35.0,Premier League
+Manchester City,2025-2026,2025,Bernardo Silva,,20,,,€27.00m,https://www.transfermarkt.com/bernardo-silva/profil/spieler/241641,2025-12-15,27.0,Premier League
+Manchester City,2025-2026,2025,Erling Haaland,,9,,,€200.00m,https://www.transfermarkt.com/erling-haaland/profil/spieler/418560,2025-12-15,200.0,Premier League
+Manchester City,2025-2026,2025,Gianluigi Donnarumma,,25,,,€45.00m,https://www.transfermarkt.com/gianluigi-donnarumma/profil/spieler/315858,2025-12-15,45.0,Premier League
+Manchester City,2025-2026,2025,James Trafford,,1,,,€25.00m,https://www.transfermarkt.com/james-trafford/profil/spieler/566799,2025-12-15,25.0,Premier League
+Manchester City,2025-2026,2025,John Stones,,5,,,€18.00m,https://www.transfermarkt.com/john-stones/profil/spieler/186590,2025-12-15,18.0,Premier League
+Manchester City,2025-2026,2025,Josko Gvardiol,,24,,,€70.00m,https://www.transfermarkt.com/josko-gvardiol/profil/spieler/475959,2025-12-15,70.0,Premier League
+Manchester City,2025-2026,2025,Jérémy Doku,,11,,,€65.00m,https://www.transfermarkt.com/jeremy-doku/profil/spieler/486049,2025-12-15,65.0,Premier League
+Manchester City,2025-2026,2025,Kalvin Phillips,,44,,,€6.00m,https://www.transfermarkt.com/kalvin-phillips/profil/spieler/351749,2025-12-15,6.0,Premier League
+Manchester City,2025-2026,2025,Marcus Bettinelli,,13,,,€500k,https://www.transfermarkt.com/marcus-bettinelli/profil/spieler/116648,2025-12-15,0.5,Premier League
+Manchester City,2025-2026,2025,Mateo Kovacic,,8,,,€15.00m,https://www.transfermarkt.com/mateo-kovacic/profil/spieler/51471,2025-12-15,15.0,Premier League
+Manchester City,2025-2026,2025,Matheus Nunes,,27,,,€38.00m,https://www.transfermarkt.com/matheus-nunes/profil/spieler/601883,2025-12-15,38.0,Premier League
+Manchester City,2025-2026,2025,Nathan Aké,,6,,,€18.00m,https://www.transfermarkt.com/nathan-ake/profil/spieler/177476,2025-12-15,18.0,Premier League
+Manchester City,2025-2026,2025,Nico González,,14,,,€45.00m,https://www.transfermarkt.com/nico-gonzalez/profil/spieler/466805,2025-12-15,45.0,Premier League
+Manchester City,2025-2026,2025,Nico O'Reilly,,33,,,€40.00m,https://www.transfermarkt.com/nico-oreilly/profil/spieler/743413,2025-12-15,40.0,Premier League
+Manchester City,2025-2026,2025,Omar Marmoush,,7,,,€65.00m,https://www.transfermarkt.com/omar-marmoush/profil/spieler/445939,2025-12-15,65.0,Premier League
+Manchester City,2025-2026,2025,Oscar Bobb,,52,,,€25.00m,https://www.transfermarkt.com/oscar-bobb/profil/spieler/661207,2025-12-15,25.0,Premier League
+Manchester City,2025-2026,2025,Phil Foden,,47,,,€80.00m,https://www.transfermarkt.com/phil-foden/profil/spieler/406635,2025-12-15,80.0,Premier League
+Manchester City,2025-2026,2025,Rayan Aït-Nouri,,21,,,€40.00m,https://www.transfermarkt.com/rayan-ait-nouri/profil/spieler/578391,2025-12-15,40.0,Premier League
+Manchester City,2025-2026,2025,Rayan Cherki,,10,,,€50.00m,https://www.transfermarkt.com/rayan-cherki/profil/spieler/607223,2025-12-15,50.0,Premier League
+Manchester City,2025-2026,2025,Rico Lewis,,82,,,€35.00m,https://www.transfermarkt.com/rico-lewis/profil/spieler/701057,2025-12-15,35.0,Premier League
+Manchester City,2025-2026,2025,Rodri,,16,,,€75.00m,https://www.transfermarkt.com/rodri/profil/spieler/357565,2025-12-15,75.0,Premier League
+Manchester City,2025-2026,2025,Rúben Dias,,3,,,€60.00m,https://www.transfermarkt.com/ruben-dias/profil/spieler/258004,2025-12-15,60.0,Premier League
+Manchester City,2025-2026,2025,Savinho,,26,,,€45.00m,https://www.transfermarkt.com/savinho/profil/spieler/743591,2025-12-15,45.0,Premier League
+Manchester City,2025-2026,2025,Stefan Ortega,,18,,,€5.00m,https://www.transfermarkt.com/stefan-ortega/profil/spieler/85941,2025-12-15,5.0,Premier League
+Manchester City,2025-2026,2025,Tijjani Reijnders,,4,,,€65.00m,https://www.transfermarkt.com/tijjani-reijnders/profil/spieler/460939,2025-12-15,65.0,Premier League
+AC Milan,2025-2026,2025,Adrien Rabiot,,12,,,€20.00m,https://www.transfermarkt.com/adrien-rabiot/profil/spieler/182913,2025-12-15,20.0,Serie A
+AC Milan,2025-2026,2025,Alexis Saelemaekers,,56,,,€20.00m,https://www.transfermarkt.com/alexis-saelemaekers/profil/spieler/381950,2025-12-15,20.0,Serie A
+AC Milan,2025-2026,2025,Ardon Jashari,,30,,,€32.00m,https://www.transfermarkt.com/ardon-jashari/profil/spieler/608172,2025-12-15,32.0,Serie A
+AC Milan,2025-2026,2025,Christian Pulisic,,11,,,€60.00m,https://www.transfermarkt.com/christian-pulisic/profil/spieler/315779,2025-12-15,60.0,Serie A
+AC Milan,2025-2026,2025,Christopher Nkunku,,18,,,€35.00m,https://www.transfermarkt.com/christopher-nkunku/profil/spieler/344381,2025-12-15,35.0,Serie A
+AC Milan,2025-2026,2025,David Odogu,,27,,,€5.00m,https://www.transfermarkt.com/david-odogu/profil/spieler/897423,2025-12-15,5.0,Serie A
+AC Milan,2025-2026,2025,Davide Bartesaghi,,33,,,€3.00m,https://www.transfermarkt.com/davide-bartesaghi/profil/spieler/887638,2025-12-15,3.0,Serie A
+AC Milan,2025-2026,2025,Fikayo Tomori,,23,,,€20.00m,https://www.transfermarkt.com/fikayo-tomori/profil/spieler/303254,2025-12-15,20.0,Serie A
+AC Milan,2025-2026,2025,Koni De Winter,,5,,,€22.00m,https://www.transfermarkt.com/koni-de-winter/profil/spieler/490384,2025-12-15,22.0,Serie A
+AC Milan,2025-2026,2025,Lorenzo Torriani,,96,,,€500k,https://www.transfermarkt.com/lorenzo-torriani/profil/spieler/939745,2025-12-15,0.5,Serie A
+AC Milan,2025-2026,2025,Luka Modrić,,14,,,€4.00m,https://www.transfermarkt.com/luka-modric/profil/spieler/27992,2025-12-15,4.0,Serie A
+AC Milan,2025-2026,2025,Matteo Gabbia,,46,,,€16.00m,https://www.transfermarkt.com/matteo-gabbia/profil/spieler/323167,2025-12-15,16.0,Serie A
+AC Milan,2025-2026,2025,Mike Maignan,,16,,,€25.00m,https://www.transfermarkt.com/mike-maignan/profil/spieler/182906,2025-12-15,25.0,Serie A
+AC Milan,2025-2026,2025,Pervis Estupiñán,,2,,,€22.00m,https://www.transfermarkt.com/pervis-estupinan/profil/spieler/349599,2025-12-15,22.0,Serie A
+AC Milan,2025-2026,2025,Pietro Terracciano,,1,,,€1.00m,https://www.transfermarkt.com/pietro-terracciano/profil/spieler/96254,2025-12-15,1.0,Serie A
+AC Milan,2025-2026,2025,Rafael Leão,,10,,,€70.00m,https://www.transfermarkt.com/rafael-leao/profil/spieler/357164,2025-12-15,70.0,Serie A
+AC Milan,2025-2026,2025,Ruben Loftus-Cheek,,8,,,€10.00m,https://www.transfermarkt.com/ruben-loftus-cheek/profil/spieler/202886,2025-12-15,10.0,Serie A
+AC Milan,2025-2026,2025,Samuele Ricci,,4,,,€25.00m,https://www.transfermarkt.com/samuele-ricci/profil/spieler/467992,2025-12-15,25.0,Serie A
+AC Milan,2025-2026,2025,Santiago Gimenez,,7,,,€25.00m,https://www.transfermarkt.com/santiago-gimenez/profil/spieler/552955,2025-12-15,25.0,Serie A
+AC Milan,2025-2026,2025,Strahinja Pavlović,,31,,,€18.00m,https://www.transfermarkt.com/strahinja-pavlovic/profil/spieler/574671,2025-12-15,18.0,Serie A
+AC Milan,2025-2026,2025,Youssouf Fofana,,19,,,€30.00m,https://www.transfermarkt.com/youssouf-fofana/profil/spieler/569598,2025-12-15,30.0,Serie A
+AC Milan,2025-2026,2025,Zachary Athekame,,24,,,€8.00m,https://www.transfermarkt.com/zachary-athekame/profil/spieler/990637,2025-12-15,8.0,Serie A
+Inter,2025-2026,2025,Alessandro Bastoni,,95,,,€80.00m,https://www.transfermarkt.com/alessandro-bastoni/profil/spieler/315853,2025-12-15,80.0,Serie A
+Inter,2025-2026,2025,Andy Diouf,,17,,,€18.00m,https://www.transfermarkt.com/andy-diouf/profil/spieler/711976,2025-12-15,18.0,Serie A
+Inter,2025-2026,2025,Ange-Yoan Bonny,,14,,,€23.00m,https://www.transfermarkt.com/ange-yoan-bonny/profil/spieler/827734,2025-12-15,23.0,Serie A
+Inter,2025-2026,2025,Carlos Augusto,,30,,,€26.00m,https://www.transfermarkt.com/carlos-augusto/profil/spieler/585982,2025-12-15,26.0,Serie A
+Inter,2025-2026,2025,Davide Frattesi,,16,,,€35.00m,https://www.transfermarkt.com/davide-frattesi/profil/spieler/394300,2025-12-15,35.0,Serie A
+Inter,2025-2026,2025,Denzel Dumfries,,2,,,€35.00m,https://www.transfermarkt.com/denzel-dumfries/profil/spieler/321528,2025-12-15,35.0,Serie A
+Inter,2025-2026,2025,Federico Dimarco,,32,,,€50.00m,https://www.transfermarkt.com/federico-dimarco/profil/spieler/198116,2025-12-15,50.0,Serie A
+Inter,2025-2026,2025,Francesco Acerbi,,15,,,€3.00m,https://www.transfermarkt.com/francesco-acerbi/profil/spieler/131075,2025-12-15,3.0,Serie A
+Inter,2025-2026,2025,Hakan Çalhanoğlu,,20,,,€25.00m,https://www.transfermarkt.com/hakan-calhanoglu/profil/spieler/126414,2025-12-15,25.0,Serie A
+Inter,2025-2026,2025,Henrikh Mkhitaryan,,22,,,€4.00m,https://www.transfermarkt.com/henrikh-mkhitaryan/profil/spieler/55735,2025-12-15,4.0,Serie A
+Inter,2025-2026,2025,Josep Martínez,,13,,,€12.00m,https://www.transfermarkt.com/josep-martinez/profil/spieler/388516,2025-12-15,12.0,Serie A
+Inter,2025-2026,2025,Lautaro Martínez,,10,,,€85.00m,https://www.transfermarkt.com/lautaro-martinez/profil/spieler/406625,2025-12-15,85.0,Serie A
+Inter,2025-2026,2025,Luis Henrique,,11,,,€25.00m,https://www.transfermarkt.com/luis-henrique/profil/spieler/691316,2025-12-15,25.0,Serie A
+Inter,2025-2026,2025,Manuel Akanji,,25,,,€22.00m,https://www.transfermarkt.com/manuel-akanji/profil/spieler/284730,2025-12-15,22.0,Serie A
+Inter,2025-2026,2025,Marcus Thuram,,9,,,€75.00m,https://www.transfermarkt.com/marcus-thuram/profil/spieler/318528,2025-12-15,75.0,Serie A
+Inter,2025-2026,2025,Matteo Darmian,,36,,,€2.50m,https://www.transfermarkt.com/matteo-darmian/profil/spieler/54906,2025-12-15,2.5,Serie A
+Inter,2025-2026,2025,Nicolò Barella,,23,,,€65.00m,https://www.transfermarkt.com/nicolo-barella/profil/spieler/255942,2025-12-15,65.0,Serie A
+Inter,2025-2026,2025,Petar Sučić,,8,,,€20.00m,https://www.transfermarkt.com/petar-sucic/profil/spieler/668207,2025-12-15,20.0,Serie A
+Inter,2025-2026,2025,Pio Esposito,,94,,,€30.00m,https://www.transfermarkt.com/pio-esposito/profil/spieler/930781,2025-12-15,30.0,Serie A
+Inter,2025-2026,2025,Piotr Zieliński,,7,,,€10.00m,https://www.transfermarkt.com/piotr-zielinski/profil/spieler/181136,2025-12-15,10.0,Serie A
+Inter,2025-2026,2025,Raffaele Di Gennaro,,12,,,€300k,https://www.transfermarkt.com/raffaele-di-gennaro/profil/spieler/70580,2025-12-15,0.3,Serie A
+Inter,2025-2026,2025,Stefan de Vrij,,6,,,€5.00m,https://www.transfermarkt.com/stefan-de-vrij/profil/spieler/111196,2025-12-15,5.0,Serie A
+Inter,2025-2026,2025,Tomás Palacios,,42,,,€4.00m,https://www.transfermarkt.com/tomas-palacios/profil/spieler/993645,2025-12-15,4.0,Serie A
+Inter,2025-2026,2025,Yann Bisseck,,31,,,€35.00m,https://www.transfermarkt.com/yann-bisseck/profil/spieler/441986,2025-12-15,35.0,Serie A
+Inter,2025-2026,2025,Yann Sommer,,1,,,€4.00m,https://www.transfermarkt.com/yann-sommer/profil/spieler/42205,2025-12-15,4.0,Serie A
+Juventus,2025-2026,2025,Andrea Cambiaso,,27,,,€35.00m,https://www.transfermarkt.com/andrea-cambiaso/profil/spieler/459658,2025-12-15,35.0,Serie A
+Juventus,2025-2026,2025,Arkadiusz Milik,,14,,,€1.50m,https://www.transfermarkt.com/arkadiusz-milik/profil/spieler/191891,2025-12-15,1.5,Serie A
+Juventus,2025-2026,2025,Bremer,,3,,,€50.00m,https://www.transfermarkt.com/bremer/profil/spieler/516716,2025-12-15,50.0,Serie A
+Juventus,2025-2026,2025,Carlo Pinsoglio,,23,,,€200k,https://www.transfermarkt.com/carlo-pinsoglio/profil/spieler/75411,2025-12-15,0.2,Serie A
+Juventus,2025-2026,2025,Daniele Rugani,,24,,,€2.00m,https://www.transfermarkt.com/daniele-rugani/profil/spieler/162959,2025-12-15,2.0,Serie A
+Juventus,2025-2026,2025,Dušan Vlahović,,9,,,€35.00m,https://www.transfermarkt.com/dusan-vlahovic/profil/spieler/357498,2025-12-15,35.0,Serie A
+Juventus,2025-2026,2025,Edon Zhegrova,,11,,,€25.00m,https://www.transfermarkt.com/edon-zhegrova/profil/spieler/496857,2025-12-15,25.0,Serie A
+Juventus,2025-2026,2025,Fabio Miretti,,21,,,€14.00m,https://www.transfermarkt.com/fabio-miretti/profil/spieler/571607,2025-12-15,14.0,Serie A
+Juventus,2025-2026,2025,Federico Gatti,,4,,,€24.00m,https://www.transfermarkt.com/federico-gatti/profil/spieler/509022,2025-12-15,24.0,Serie A
+Juventus,2025-2026,2025,Filip Kostić,,18,,,€3.50m,https://www.transfermarkt.com/filip-kostic/profil/spieler/161011,2025-12-15,3.5,Serie A
+Juventus,2025-2026,2025,Francisco Conceição,,7,,,€30.00m,https://www.transfermarkt.com/francisco-conceicao/profil/spieler/487474,2025-12-15,30.0,Serie A
+Juventus,2025-2026,2025,Jonas Rouhi,,40,,,€2.00m,https://www.transfermarkt.com/jonas-rouhi/profil/spieler/741090,2025-12-15,2.0,Serie A
+Juventus,2025-2026,2025,Jonathan David,,30,,,€45.00m,https://www.transfermarkt.com/jonathan-david/profil/spieler/533738,2025-12-15,45.0,Serie A
+Juventus,2025-2026,2025,João Mário,,25,,,€10.00m,https://www.transfermarkt.com/joao-mario/profil/spieler/537602,2025-12-15,10.0,Serie A
+Juventus,2025-2026,2025,Juan Cabal,,32,,,€9.00m,https://www.transfermarkt.com/juan-cabal/profil/spieler/686965,2025-12-15,9.0,Serie A
+Juventus,2025-2026,2025,Kenan Yıldız,,10,,,€75.00m,https://www.transfermarkt.com/kenan-yildiz/profil/spieler/845654,2025-12-15,75.0,Serie A
+Juventus,2025-2026,2025,Khéphren Thuram,,19,,,€40.00m,https://www.transfermarkt.com/khephren-thuram/profil/spieler/463618,2025-12-15,40.0,Serie A
+Juventus,2025-2026,2025,Lloyd Kelly,,6,,,€18.00m,https://www.transfermarkt.com/lloyd-kelly/profil/spieler/480116,2025-12-15,18.0,Serie A
+Juventus,2025-2026,2025,Loïs Openda,,20,,,€45.00m,https://www.transfermarkt.com/lois-openda/profil/spieler/368887,2025-12-15,45.0,Serie A
+Juventus,2025-2026,2025,Manuel Locatelli,,5,,,€30.00m,https://www.transfermarkt.com/manuel-locatelli/profil/spieler/265088,2025-12-15,30.0,Serie A
+Juventus,2025-2026,2025,Mattia Perin,,1,,,€2.50m,https://www.transfermarkt.com/mattia-perin/profil/spieler/110923,2025-12-15,2.5,Serie A
+Juventus,2025-2026,2025,Michele Di Gregorio,,16,,,€18.00m,https://www.transfermarkt.com/michele-di-gregorio/profil/spieler/301238,2025-12-15,18.0,Serie A
+Juventus,2025-2026,2025,Pierre Kalulu,,15,,,€28.00m,https://www.transfermarkt.com/pierre-kalulu/profil/spieler/585949,2025-12-15,28.0,Serie A
+Juventus,2025-2026,2025,Teun Koopmeiners,,8,,,€30.00m,https://www.transfermarkt.com/teun-koopmeiners/profil/spieler/360518,2025-12-15,30.0,Serie A
+Juventus,2025-2026,2025,Vasilije Adžić,,17,,,€8.00m,https://www.transfermarkt.com/vasilije-adzic/profil/spieler/944570,2025-12-15,8.0,Serie A
+Juventus,2025-2026,2025,Weston McKennie,,22,,,€22.00m,https://www.transfermarkt.com/weston-mckennie/profil/spieler/332697,2025-12-15,22.0,Serie A
+Manchester United,2023-2024,2023,Aaron Wan-Bissaka,,29,,,€20.00m,https://www.transfermarkt.com/aaron-wan-bissaka/profil/spieler/477758,2025-12-15,20.0,
+Manchester United,2023-2024,2023,Alejandro Garnacho,,17,,,€45.00m,https://www.transfermarkt.com/alejandro-garnacho/profil/spieler/811779,2025-12-15,45.0,
+Manchester United,2023-2024,2023,Altay Bayındır,,1,,,€10.00m,https://www.transfermarkt.com/altay-bayindir/profil/spieler/336077,2025-12-15,10.0,
+Manchester United,2023-2024,2023,Amad Diallo,,16,,,€18.00m,https://www.transfermarkt.com/amad-diallo/profil/spieler/536835,2025-12-15,18.0,
+Manchester United,2023-2024,2023,André Onana,,24,,,€35.00m,https://www.transfermarkt.com/andre-onana/profil/spieler/234509,2025-12-15,35.0,
+Manchester United,2023-2024,2023,Anthony Martial,,9,,,€10.00m,https://www.transfermarkt.com/anthony-martial/profil/spieler/182877,2025-12-15,10.0,
+Manchester United,2023-2024,2023,Antony,,21,,,€25.00m,https://www.transfermarkt.com/antony/profil/spieler/602105,2025-12-15,25.0,
+Manchester United,2023-2024,2023,Brandon Williams,,-,,,€2.50m,https://www.transfermarkt.com/brandon-williams/profil/spieler/507700,2025-12-15,2.5,
+Manchester United,2023-2024,2023,Bruno Fernandes,,8,,,€70.00m,https://www.transfermarkt.com/bruno-fernandes/profil/spieler/240306,2025-12-15,70.0,
+Manchester United,2023-2024,2023,Casemiro,,18,,,€20.00m,https://www.transfermarkt.com/casemiro/profil/spieler/16306,2025-12-15,20.0,
+Manchester United,2023-2024,2023,Christian Eriksen,,14,,,€8.00m,https://www.transfermarkt.com/christian-eriksen/profil/spieler/69633,2025-12-15,8.0,
+Manchester United,2023-2024,2023,Daniel Gore,,44,,,€900k,https://www.transfermarkt.com/daniel-gore/profil/spieler/747153,2025-12-15,0.9,
+Manchester United,2023-2024,2023,Dean Henderson,,-,,,€12.00m,https://www.transfermarkt.com/dean-henderson/profil/spieler/258919,2025-12-15,12.0,
+Manchester United,2023-2024,2023,Dermot Mee,,-,,,"1,83m",https://www.transfermarkt.com/dermot-mee/profil/spieler/620362,2025-12-15,0.0,
+Manchester United,2023-2024,2023,Diogo Dalot,,20,,,€35.00m,https://www.transfermarkt.com/diogo-dalot/profil/spieler/357147,2025-12-15,35.0,
+Manchester United,2023-2024,2023,Donny van de Beek,,34,,,€5.00m,https://www.transfermarkt.com/donny-van-de-beek/profil/spieler/288255,2025-12-15,5.0,
+Manchester United,2023-2024,2023,Ethan Wheatley,,36,,,"1,87m",https://www.transfermarkt.com/ethan-wheatley/profil/spieler/888639,2025-12-15,0.0,
+Manchester United,2023-2024,2023,Facundo Pellistri,,28,,,€8.00m,https://www.transfermarkt.com/facundo-pellistri/profil/spieler/676318,2025-12-15,8.0,
+Manchester United,2023-2024,2023,Habeeb Ogunneye,,-,,,"1,75m",https://www.transfermarkt.com/habeeb-ogunneye/profil/spieler/864788,2025-12-15,0.0,
+Manchester United,2023-2024,2023,Hannibal,,46,,,€9.00m,https://www.transfermarkt.com/hannibal/profil/spieler/607224,2025-12-15,9.0,
+Manchester United,2023-2024,2023,Harry Amass,,-,,,"1,81m",https://www.transfermarkt.com/harry-amass/profil/spieler/1011738,2025-12-15,0.0,
+Manchester United,2023-2024,2023,Harry Maguire,,5,,,€18.00m,https://www.transfermarkt.com/harry-maguire/profil/spieler/177907,2025-12-15,18.0,
+Manchester United,2023-2024,2023,Jadon Sancho,,25,,,€30.00m,https://www.transfermarkt.com/jadon-sancho/profil/spieler/401173,2025-12-15,30.0,
+Manchester United,2023-2024,2023,Joe Hugill,,-,,,€200k,https://www.transfermarkt.com/joe-hugill/profil/spieler/726859,2025-12-15,0.2,
+Manchester United,2023-2024,2023,Jonny Evans,,35,,,€2.00m,https://www.transfermarkt.com/jonny-evans/profil/spieler/42412,2025-12-15,2.0,
+Manchester United,2023-2024,2023,Kobbie Mainoo,,37,,,€50.00m,https://www.transfermarkt.com/kobbie-mainoo/profil/spieler/820374,2025-12-15,50.0,
+Manchester United,2023-2024,2023,Lisandro Martínez,,6,,,€45.00m,https://www.transfermarkt.com/lisandro-martinez/profil/spieler/480762,2025-12-15,45.0,
+Manchester United,2023-2024,2023,Louis Jackson,,-,,,"1,91m",https://www.transfermarkt.com/louis-jackson/profil/spieler/858191,2025-12-15,0.0,
+Manchester United,2023-2024,2023,Luke Shaw,,23,,,€32.00m,https://www.transfermarkt.com/luke-shaw/profil/spieler/183288,2025-12-15,32.0,
+Manchester United,2023-2024,2023,Marcus Rashford,,10,,,€60.00m,https://www.transfermarkt.com/marcus-rashford/profil/spieler/258923,2025-12-15,60.0,
+Manchester United,2023-2024,2023,Mason Mount,,7,,,€35.00m,https://www.transfermarkt.com/mason-mount/profil/spieler/346483,2025-12-15,35.0,
+Manchester United,2023-2024,2023,Omari Forson,,-,,,€2.00m,https://www.transfermarkt.com/omari-forson/profil/spieler/670845,2025-12-15,2.0,
+Manchester United,2023-2024,2023,Radek Vítek,,-,,,€300k,https://www.transfermarkt.com/radek-vitek/profil/spieler/622236,2025-12-15,0.3,
+Manchester United,2023-2024,2023,Raphaël Varane,,19,,,€20.00m,https://www.transfermarkt.com/raphael-varane/profil/spieler/164770,2025-12-15,20.0,
+Manchester United,2023-2024,2023,Rasmus Højlund,,11,,,€65.00m,https://www.transfermarkt.com/rasmus-hojlund/profil/spieler/610442,2025-12-15,65.0,
+Manchester United,2023-2024,2023,Rhys Bennett,,-,,,"1,87m",https://www.transfermarkt.com/rhys-bennett/profil/spieler/794816,2025-12-15,0.0,
+Manchester United,2023-2024,2023,Scott McTominay,,39,,,€32.00m,https://www.transfermarkt.com/scott-mctominay/profil/spieler/315969,2025-12-15,32.0,
+Manchester United,2023-2024,2023,Sergio Reguilón,,15,,,€12.00m,https://www.transfermarkt.com/sergio-reguilon/profil/spieler/282429,2025-12-15,12.0,
+Manchester United,2023-2024,2023,Shola Shoretire,,47,,,€4.00m,https://www.transfermarkt.com/shola-shoretire/profil/spieler/640026,2025-12-15,4.0,
+Manchester United,2023-2024,2023,Sofyan Amrabat,,4,,,€22.00m,https://www.transfermarkt.com/sofyan-amrabat/profil/spieler/287579,2025-12-15,22.0,
+Manchester United,2023-2024,2023,Toby Collyer,,43,,,€200k,https://www.transfermarkt.com/toby-collyer/profil/spieler/654253,2025-12-15,0.2,
+Manchester United,2023-2024,2023,Tom Heaton,,22,,,€250k,https://www.transfermarkt.com/tom-heaton/profil/spieler/34130,2025-12-15,0.25,
+Manchester United,2023-2024,2023,Tyrell Malacia,,12,,,€18.00m,https://www.transfermarkt.com/tyrell-malacia/profil/spieler/339340,2025-12-15,18.0,
+Manchester United,2023-2024,2023,Victor Lindelöf,,2,,,€15.00m,https://www.transfermarkt.com/victor-lindelof/profil/spieler/184573,2025-12-15,15.0,
+Manchester United,2023-2024,2023,Willy Kambwala,,53,,,€5.00m,https://www.transfermarkt.com/willy-kambwala/profil/spieler/780630,2025-12-15,5.0,
+Manchester United,2023-2024,2023,Álvaro Carreras,,-,,,€7.00m,https://www.transfermarkt.com/alvaro-carreras/profil/spieler/811778,2025-12-15,7.0,

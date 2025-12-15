@@ -1,0 +1,113 @@
+player_id,player_name,current_club,position,age,recommended_to_team,vector_score,tactical_fit,final_score,player_cluster,recommendation_date
+0,Youssouf Fofana,Ac Milan,MF,19,Bayern Munich,0.8883,1.0,0.9553,0,2025-12-15
+1,Rico Lewis,Manchester City,"DF,MF",18,Bayern Munich,0.8525,1.0,0.941,0,2025-12-15
+2,Warren Zaïre-Emery,Psg,"MF,DF",16,Bayern Munich,0.8515,1.0,0.9406,0,2025-12-15
+3,Pierre Kalulu,Juventus,DF,20,Bayern Munich,0.8471,1.0,0.9388,0,2025-12-15
+4,Angel Gomes,Marseille,"MF,FW",20,Bayern Munich,0.8102,1.0,0.9241,0,2025-12-15
+5,Fabio Miretti,Juventus,MF,19,Bayern Munich,0.8063,1.0,0.9225,1,2025-12-15
+6,Gavi,Barcelona,"MF,FW",18,Bayern Munich,0.7997,1.0,0.9199,0,2025-12-15
+1,Marc Pubill,Atlético Madrid,"DF,MF",18,Borussia Dortmund,0.9096,1.0,0.9638,0,2025-12-15
+2,Rayan Cherki,Manchester City,"FW,MF",17,Borussia Dortmund,0.8702,1.0,0.9481,0,2025-12-15
+3,Pierre Kalulu,Juventus,DF,20,Borussia Dortmund,0.8607,1.0,0.9443,0,2025-12-15
+4,Kassoum Ouattara,Monaco,"DF,FW",18,Borussia Dortmund,0.8499,1.0,0.94,0,2025-12-15
+5,Rico Lewis,Manchester City,"DF,MF",18,Borussia Dortmund,0.8405,1.0,0.9362,0,2025-12-15
+6,Brahim Díaz,Real Madrid,FW,18,Borussia Dortmund,0.8308,1.0,0.9323,0,2025-12-15
+7,Ibrahim Mbaye,Psg,"FW,MF",16,Borussia Dortmund,0.8301,1.0,0.9321,0,2025-12-15
+2,Pierre Kalulu,Juventus,DF,20,RB Leipzig,0.9207,1.0,0.9683,0,2025-12-15
+3,Rayan Cherki,Manchester City,"FW,MF",17,RB Leipzig,0.8886,1.0,0.9555,0,2025-12-15
+4,Kassoum Ouattara,Monaco,"DF,FW",18,RB Leipzig,0.8774,1.0,0.9509,0,2025-12-15
+5,Alexis Mac Allister,Liverpool,"MF,FW",21,RB Leipzig,0.8763,1.0,0.9505,0,2025-12-15
+6,Rico Lewis,Manchester City,"DF,MF",18,RB Leipzig,0.8719,1.0,0.9488,0,2025-12-15
+7,Rico Lewis,Manchester City,"DF,MF",17,RB Leipzig,0.8714,1.0,0.9485,0,2025-12-15
+8,Marc Pubill,Atlético Madrid,"DF,MF",18,RB Leipzig,0.8703,1.0,0.9481,0,2025-12-15
+3,Rico Lewis,Manchester City,"DF,MF",17,Atlético Madrid,0.9067,1.0,0.9627,0,2025-12-15
+4,Federico Dimarco,Inter,"DF,MF",20,Atlético Madrid,0.8836,1.0,0.9534,0,2025-12-15
+5,Jeremie Frimpong,Liverpool,"DF,FW",19,Atlético Madrid,0.8734,1.0,0.9493,0,2025-12-15
+6,Rayan Cherki,Manchester City,"FW,MF",17,Atlético Madrid,0.8702,1.0,0.9481,0,2025-12-15
+7,Gavi,Barcelona,"MF,FW",18,Atlético Madrid,0.8699,1.0,0.9479,0,2025-12-15
+8,Pierre Kalulu,Juventus,DF,20,Atlético Madrid,0.8584,1.0,0.9434,0,2025-12-15
+9,Julien Duranville,Borussia Dortmund,"FW,MF",18,Atlético Madrid,0.8569,1.0,0.9428,0,2025-12-15
+4,Senny Mayulu,Psg,MF,18,Barcelona,0.918,1.0,0.9672,1,2025-12-15
+5,Phil Foden,Manchester City,"FW,MF",19,Barcelona,0.8674,1.0,0.947,1,2025-12-15
+6,Felix Nmecha,Borussia Dortmund,MF,22,Barcelona,0.8664,1.0,0.9466,1,2025-12-15
+7,Mason Greenwood,Marseille,"FW,MF",19,Barcelona,0.8594,1.0,0.9438,1,2025-12-15
+8,Brahim Díaz,Real Madrid,"MF,FW",20,Barcelona,0.8593,1.0,0.9437,1,2025-12-15
+9,Federico Chiesa,Liverpool,"MF,FW",23,Barcelona,0.8578,1.0,0.9431,1,2025-12-15
+10,Christian Pulisic,Ac Milan,FW,19,Barcelona,0.8557,1.0,0.9423,1,2025-12-15
+5,Pierre Kalulu,Juventus,DF,20,Real Madrid,0.9186,1.0,0.9674,0,2025-12-15
+6,Youssouf Fofana,Ac Milan,MF,19,Real Madrid,0.9135,1.0,0.9654,0,2025-12-15
+7,Warren Zaïre-Emery,Psg,"MF,DF",16,Real Madrid,0.9044,1.0,0.9618,0,2025-12-15
+8,Rico Lewis,Manchester City,"DF,MF",18,Real Madrid,0.9036,1.0,0.9614,0,2025-12-15
+9,Curtis Jones,Liverpool,MF,20,Real Madrid,0.887,1.0,0.9548,0,2025-12-15
+10,Pedri,Barcelona,MF,18,Real Madrid,0.8832,1.0,0.9533,0,2025-12-15
+11,Kenan Yıldız,Juventus,"FW,MF",18,Real Madrid,0.8673,1.0,0.9469,1,2025-12-15
+6,Stefan Bajcetic,Liverpool,MF,17,Marseille,0.937,1.0,0.9748,0,2025-12-15
+7,Harvey Elliott,Liverpool,MF,15,Marseille,0.8936,1.0,0.9574,0,2025-12-15
+8,Rayan Cherki,Manchester City,"MF,FW",15,Marseille,0.879,1.0,0.9516,0,2025-12-15
+9,Kenan Yıldız,Juventus,"FW,MF",18,Marseille,0.8716,1.0,0.9487,0,2025-12-15
+10,Carney Chukwuemeka,Borussia Dortmund,"MF,FW",16,Marseille,0.8466,1.0,0.9387,0,2025-12-15
+11,Maghnes Akliouche,Monaco,"MF,FW",19,Marseille,0.8461,1.0,0.9384,0,2025-12-15
+12,Cristhian Mosquera,Arsenal,DF,17,Marseille,0.8433,1.0,0.9373,0,2025-12-15
+7,Senny Mayulu,Psg,MF,18,Monaco,0.9208,1.0,0.9683,1,2025-12-15
+8,Gabriel Martinelli,Arsenal,FW,19,Monaco,0.8998,1.0,0.9599,0,2025-12-15
+9,Timothy Weah,Marseille,"FW,MF",20,Monaco,0.8861,1.0,0.9544,1,2025-12-15
+10,Dani Olmo,Barcelona,"MF,FW",21,Monaco,0.878,1.0,0.9512,0,2025-12-15
+11,Phil Foden,Manchester City,MF,18,Monaco,0.8729,1.0,0.9492,0,2025-12-15
+12,Angel Gomes,Marseille,"MF,FW",20,Monaco,0.8704,1.0,0.9481,0,2025-12-15
+13,Giuliano Simeone,Atlético Madrid,FW,20,Monaco,0.8699,1.0,0.948,0,2025-12-15
+8,Rodri,Manchester City,FW,21,PSG,0.9106,1.0,0.9642,1,2025-12-15
+9,Dani Olmo,Barcelona,"MF,FW",21,PSG,0.9037,1.0,0.9615,0,2025-12-15
+10,Jadon Sancho,Manchester United,FW,17,PSG,0.9029,1.0,0.9612,1,2025-12-15
+11,Alexis Mac Allister,Liverpool,"MF,FW",21,PSG,0.9003,1.0,0.9601,0,2025-12-15
+12,Giuliano Simeone,Atlético Madrid,FW,20,PSG,0.8953,1.0,0.9581,0,2025-12-15
+13,Youssouf Fofana,Ac Milan,MF,19,PSG,0.8915,1.0,0.9566,0,2025-12-15
+14,Pierre Kalulu,Juventus,DF,20,PSG,0.8872,1.0,0.9549,0,2025-12-15
+9,Pierre Kalulu,Juventus,DF,20,Arsenal,0.8675,1.0,0.947,0,2025-12-15
+10,Kassoum Ouattara,Monaco,"DF,FW",19,Arsenal,0.8619,1.0,0.9448,0,2025-12-15
+11,Rayan Cherki,Manchester City,"FW,MF",17,Arsenal,0.8603,1.0,0.9441,0,2025-12-15
+12,Rico Lewis,Manchester City,"DF,MF",17,Arsenal,0.8437,1.0,0.9375,0,2025-12-15
+13,Pedri,Barcelona,MF,18,Arsenal,0.8361,1.0,0.9344,0,2025-12-15
+14,Rico Lewis,Manchester City,"DF,MF",18,Arsenal,0.8292,1.0,0.9317,0,2025-12-15
+15,Josh Wilson-Esbrand,Manchester City,"DF,MF",20,Arsenal,0.828,1.0,0.9312,0,2025-12-15
+10,Kassoum Ouattara,Monaco,"DF,FW",18,Liverpool,0.9032,1.0,0.9613,0,2025-12-15
+11,Pierre Kalulu,Juventus,DF,20,Liverpool,0.8817,1.0,0.9527,0,2025-12-15
+12,Phil Foden,Manchester City,MF,18,Liverpool,0.8743,1.0,0.9497,0,2025-12-15
+13,Senny Mayulu,Psg,MF,18,Liverpool,0.8642,1.0,0.9457,1,2025-12-15
+14,Youssouf Fofana,Ac Milan,MF,19,Liverpool,0.8622,1.0,0.9449,0,2025-12-15
+15,Rico Lewis,Manchester City,"DF,MF",18,Liverpool,0.8551,1.0,0.9421,0,2025-12-15
+16,Gabriel Martinelli,Arsenal,FW,19,Liverpool,0.8524,1.0,0.941,0,2025-12-15
+11,Senny Mayulu,Psg,MF,18,Manchester City,0.9147,1.0,0.9659,1,2025-12-15
+12,Dani Olmo,Barcelona,"MF,FW",21,Manchester City,0.8757,1.0,0.9503,0,2025-12-15
+13,Pedri,Barcelona,MF,18,Manchester City,0.87,1.0,0.948,0,2025-12-15
+14,Alexis Mac Allister,Liverpool,"MF,FW",21,Manchester City,0.8533,1.0,0.9413,0,2025-12-15
+15,Pierre Kalulu,Juventus,DF,20,Manchester City,0.8489,1.0,0.9396,0,2025-12-15
+16,Youssouf Fofana,Ac Milan,MF,19,Manchester City,0.8485,1.0,0.9394,0,2025-12-15
+17,Mason Greenwood,Marseille,"FW,MF",19,Manchester City,0.8436,1.0,0.9375,1,2025-12-15
+12,Angel Gomes,Marseille,"FW,MF",15,AC Milan,0.9806,1.0,0.9922,0,2025-12-15
+13,Ethan Nwaneri,Arsenal,FW,15,AC Milan,0.9806,1.0,0.9922,0,2025-12-15
+14,Martin Ødegaard,Arsenal,"FW,MF",15,AC Milan,0.9805,1.0,0.9922,0,2025-12-15
+15,Ben Gannon-Doak,Liverpool,FW,16,AC Milan,0.9763,1.0,0.9905,0,2025-12-15
+16,Harvey Elliott,Liverpool,DF,16,AC Milan,0.9751,1.0,0.99,0,2025-12-15
+17,Shola Shoretire,Manchester United,FW,16,AC Milan,0.9745,1.0,0.9898,0,2025-12-15
+18,Viggo Gebel,Rb Leipzig,MF,16,AC Milan,0.9741,1.0,0.9897,0,2025-12-15
+13,Youssouf Fofana,Ac Milan,MF,19,Inter,0.8776,1.0,0.951,0,2025-12-15
+14,Mason Greenwood,Marseille,"FW,MF",19,Inter,0.8528,1.0,0.9411,1,2025-12-15
+15,Senny Mayulu,Psg,MF,18,Inter,0.8424,1.0,0.9369,1,2025-12-15
+16,Timothy Weah,Marseille,"FW,MF",20,Inter,0.8381,1.0,0.9353,1,2025-12-15
+17,Warren Zaïre-Emery,Psg,"MF,DF",16,Inter,0.8351,1.0,0.934,0,2025-12-15
+18,Kassoum Ouattara,Monaco,"DF,FW",18,Inter,0.8327,1.0,0.9331,0,2025-12-15
+19,Rico Lewis,Manchester City,"DF,MF",18,Inter,0.8311,1.0,0.9324,0,2025-12-15
+14,Youssouf Fofana,Ac Milan,MF,19,Juventus,0.8736,1.0,0.9495,0,2025-12-15
+15,Ibrahim Mbaye,Psg,"FW,MF",16,Juventus,0.8701,1.0,0.948,0,2025-12-15
+16,Kassoum Ouattara,Monaco,"DF,FW",18,Juventus,0.8612,1.0,0.9445,0,2025-12-15
+17,Tom Bischof,Bayern Munich,"MF,FW",17,Juventus,0.8579,1.0,0.9432,0,2025-12-15
+18,Gabriel Martinelli,Arsenal,FW,19,Juventus,0.8577,1.0,0.9431,0,2025-12-15
+19,Marc Pubill,Atlético Madrid,"DF,MF",18,Juventus,0.8576,1.0,0.943,0,2025-12-15
+20,Phil Foden,Manchester City,MF,18,Juventus,0.8541,1.0,0.9416,0,2025-12-15
+15,Pierre Kalulu,Juventus,DF,20,Manchester United,0.8843,1.0,0.9537,0,2025-12-15
+16,Rayan Cherki,Manchester City,"FW,MF",17,Manchester United,0.8777,1.0,0.9511,0,2025-12-15
+17,Rico Lewis,Manchester City,"DF,MF",18,Manchester United,0.8639,1.0,0.9456,0,2025-12-15
+18,Youssouf Fofana,Ac Milan,MF,19,Manchester United,0.861,1.0,0.9444,0,2025-12-15
+19,Florian Wirtz,Liverpool,FW,16,Manchester United,0.8593,1.0,0.9437,0,2025-12-15
+20,Rico Lewis,Manchester City,"DF,MF",17,Manchester United,0.8333,1.0,0.9333,0,2025-12-15
+21,Senny Mayulu,Psg,"FW,MF",17,Manchester United,0.8296,1.0,0.9318,0,2025-12-15
